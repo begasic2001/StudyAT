@@ -1,0 +1,11 @@
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\bin\Debug\net7.0\Reactivities.Domain.deps.json
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\bin\Debug\net7.0\Reactivities.Domain.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\bin\Debug\net7.0\Reactivities.Domain.pdb
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\obj\Debug\net7.0\Reactivities.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\obj\Debug\net7.0\Reactivities.Domain.AssemblyInfoInputs.cache
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\obj\Debug\net7.0\Reactivities.Domain.AssemblyInfo.cs
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\obj\Debug\net7.0\Reactivities.Domain.csproj.CoreCompileInputs.cache
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\obj\Debug\net7.0\Reactivities.Domain.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\obj\Debug\net7.0\refint\Reactivities.Domain.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\obj\Debug\net7.0\Reactivities.Domain.pdb
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\obj\Debug\net7.0\ref\Reactivities.Domain.dll

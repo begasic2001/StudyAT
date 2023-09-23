@@ -1,0 +1,17 @@
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\bin\Debug\net7.0\Reactivities.Application.deps.json
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\bin\Debug\net7.0\Reactivities.Application.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\bin\Debug\net7.0\Reactivities.Application.pdb
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\bin\Debug\net7.0\Reactivities.Domain.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\bin\Debug\net7.0\Reactivities.Persistence.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\bin\Debug\net7.0\Reactivities.Domain.pdb
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\bin\Debug\net7.0\Reactivities.Persistence.pdb
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\obj\Debug\net7.0\Reactivities.Application.csproj.AssemblyReference.cache
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\obj\Debug\net7.0\Reactivities.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\obj\Debug\net7.0\Reactivities.Application.AssemblyInfoInputs.cache
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\obj\Debug\net7.0\Reactivities.Application.AssemblyInfo.cs
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\obj\Debug\net7.0\Reactivities.Application.csproj.CoreCompileInputs.cache
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\obj\Debug\net7.0\Reactivities.Application.csproj.CopyComplete
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\obj\Debug\net7.0\Reactivities.Application.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\obj\Debug\net7.0\refint\Reactivities.Application.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\obj\Debug\net7.0\Reactivities.Application.pdb
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Application\obj\Debug\net7.0\ref\Reactivities.Application.dll
