@@ -13,3 +13,5 @@ C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Persistence\obj\De
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Persistence\obj\Debug\net7.0\refint\Reactivities.Persistence.dll
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Persistence\obj\Debug\net7.0\Reactivities.Persistence.pdb
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Persistence\obj\Debug\net7.0\ref\Reactivities.Persistence.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Persistence\bin\Debug\net7.0\Reactivities.Persistence.runtimeconfig.json
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Persistence\obj\Debug\net7.0\Reactivities.Persistence.genruntimeconfig.cache
