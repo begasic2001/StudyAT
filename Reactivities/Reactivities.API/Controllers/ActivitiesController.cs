@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Reactivities.Domain;
 using Reactivities.Persistence;
+using Reactivities.Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace Reactivities.API.Controllers
 {
@@ -17,7 +17,7 @@ namespace Reactivities.API.Controllers
         }
 
         [HttpGet] // api/activities
-       public async Task<ActionResult<List<Activity>>> GetActivities()
+        public async Task<ActionResult<List<Activity>>> GetActivities()
         {
             return await _context.Activities.ToListAsync();
         }
@@ -26,6 +26,5 @@ namespace Reactivities.API.Controllers
         {
             return await _context.Activities.FindAsync(id);
         }
-
     }
 }

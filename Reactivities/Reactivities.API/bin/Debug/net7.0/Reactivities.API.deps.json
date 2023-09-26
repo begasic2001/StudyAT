@@ -11,7 +11,6 @@
           "Microsoft.AspNetCore.OpenApi": "7.0.11",
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.Design": "7.0.11",
-          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.4",
           "Reactivities.Application": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -219,12 +218,6 @@
           "Microsoft.Extensions.Primitives": "7.0.0"
         }
       },
-      "Microsoft.Extensions.Configuration/7.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Primitives": "7.0.0"
-        }
-      },
       "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "7.0.0"
@@ -374,7 +367,6 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {},
       "Microsoft.Win32.SystemEvents/6.0.0": {
         "runtime": {
           "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
@@ -635,7 +627,6 @@
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11",
-          "Microsoft.Extensions.Configuration": "7.0.0",
           "Reactivities.Domain": "1.0.0"
         },
         "runtime": {
@@ -768,13 +759,6 @@
       "sha512": "sha512-xpidBs2KCE2gw1JrD0quHE72kvCaI3xFql5/Peb2GRtUuZX+dYPoK/NTdVMiM67Svym0M0Df9A3xyU0FbMQhHw==",
       "path": "microsoft.extensions.caching.memory/7.0.0",
       "hashPath": "microsoft.extensions.caching.memory.7.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Configuration/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-tldQUBWt/xeH2K7/hMPPo5g8zuLc3Ro9I5d4o/XrxvxOCA2EZBtW7bCHHTc49fcBtvB8tLAb/Qsmfrq+2SJ4vA==",
-      "path": "microsoft.extensions.configuration/7.0.0",
-      "hashPath": "microsoft.extensions.configuration.7.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
       "type": "package",
@@ -915,13 +899,6 @@
       "sha512": "sha512-N4KeF3cpcm1PUHym1RmakkzfkEv3GRMyofVv40uXsQhCQeglr2OHNcUk2WOG51AKpGO8ynGpo9M/kFXSzghwug==",
       "path": "microsoft.sqlserver.server/1.0.0",
       "hashPath": "microsoft.sqlserver.server.1.0.0.nupkg.sha512"
-    },
-    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-aKxpRAUIxDrnSnyr7xJWGixOBgsB7Z4oHpWRkpRzzq04kfze4mN7944gRc4X9H2U5KG3A/btF74kavkO8KXqCg==",
-      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.19.4",
-      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
     },
     "Microsoft.Win32.SystemEvents/6.0.0": {
       "type": "package",

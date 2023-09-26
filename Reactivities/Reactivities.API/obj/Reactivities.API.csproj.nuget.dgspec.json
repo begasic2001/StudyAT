@@ -62,10 +62,6 @@
               "target": "Package",
               "version": "[7.0.11, )"
             },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.19.4, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -267,12 +263,6 @@
               "target": "Package",
               "version": "[7.0.11, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.11, )"
-            },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[7.0.11, )"
@@ -286,10 +276,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[7.0.0, )"
             }
           },
           "imports": [

@@ -111,12 +111,6 @@
               "target": "Package",
               "version": "[7.0.11, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.11, )"
-            },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[7.0.11, )"
@@ -130,10 +124,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[7.0.0, )"
             }
           },
           "imports": [

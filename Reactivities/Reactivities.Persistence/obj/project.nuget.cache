@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FvOa2/I36HLnqDDo/vtITZvjOUxFxmIMYc2uKd4ssIi+aEfLILuyHjixVLIXEiKcZjIp6Pmn8m6E5q0ypuesdg==",
+  "dgSpecHash": "KrYZhuT5DOwdV6hvXXwxXgG0OiMnK3Xfqv4ni14NTUEW09mJOxn0oN6WaG6kPwzeHdRW9F6gm00XtpxGXA8jGA==",
   "success": true,
   "projectFilePath": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.Persistence\\Reactivities.Persistence.csproj",
   "expectedPackageFiles": [
@@ -20,7 +20,6 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.11\\microsoft.entityframeworkcore.tools.7.0.11.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
