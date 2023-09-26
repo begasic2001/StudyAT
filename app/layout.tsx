@@ -4,11 +4,11 @@ import "./globals.css";
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: any;
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="container-xl">
         <Navbar />
         <main>{children}</main>
       </body>
