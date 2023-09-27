@@ -80,3 +80,7 @@ C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\System.CodeDom.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\MediatR.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\AutoMapper.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
