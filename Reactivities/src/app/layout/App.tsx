@@ -1,12 +1,16 @@
 import { useState, useEffect } from "react";
-import { Container } from "semantic-ui-react";
+import { Button, Container } from "semantic-ui-react";
 import { Activity } from "../models/activity";
 import Navbar from "./Navbar";
 import ActivityDashboard from "../../services/activities/dashboard/ActivityDashboard";
 import { v4 as uuid } from "uuid";
 import agent from "../api/agent";
 import Loading from "./Loading";
+import { useStore } from "../stores/store";
+import { observer } from "mobx-react-lite";
 function App() {
+  const { activityStore } = useStore();
+
   const [activities, setActivities] = useState<Activity[]>([]);
   const [selectedActivity, setSelectedActivity] = useState<
     Activity | undefined
@@ -76,6 +80,8 @@ function App() {
     <>
       <Navbar openForm={handleOpenForm} />
       <Container style={{ marginTop: "7em" }}>
+        <h2>{activityStore.title}</h2>
+        <Button onClick={activityStore.setTitle} content="Click me" />
         <ActivityDashboard
           activities={activities}
           selectedActivity={selectedActivity}
@@ -93,4 +99,4 @@ function App() {
   );
 }
 
-export default App;
+export default observer(App);
