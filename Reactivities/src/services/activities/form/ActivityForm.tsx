@@ -1,17 +1,22 @@
 import { Button, Form, Segment } from "semantic-ui-react";
-
-import { ChangeEvent, useState } from "react";
+import { useParams, useNavigate,Link } from "react-router-dom";
+import { ChangeEvent, useEffect, useState } from "react";
 import { useStore } from "../../../app/stores/store";
 import { observer } from "mobx-react-lite";
+import { Activity } from "../../../app/models/activity";
+import Loading from "../../../app/layout/Loading";
+import { v4 as uuid } from "uuid";
 export default observer(function ActivityForm() {
   const { activityStore } = useStore();
   const {
-    selectedActivity,
     createActivity,
     updateActivity,
     loading,
+    loadActivity,
+    loadingInitial,
   } = activityStore;
-  const initState = selectedActivity ?? {
+  const { id } = useParams();
+  const [activity, setActivity] = useState<Activity>({
     id: "",
     title: "",
     category: "",
@@ -19,11 +24,18 @@ export default observer(function ActivityForm() {
     date: "",
     city: "",
     venue: "",
-  };
-  const [activity, setActivity] = useState(initState);
-
+  });
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (id) loadActivity(id).then((activity) => setActivity(activity!));
+  }, [id, loadActivity]);
   const handleSubmit = () => {
-    activity.id ? updateActivity(activity) : createActivity(activity);
+    if (activity.id) {
+      updateActivity(activity).then(() => navigate(`/activity/${activity.id}`));
+    } else {
+      activity.id = uuid();
+      createActivity(activity).then(() => navigate(`/activity/${activity.id}`));
+    }
   };
   const handleInputChange = (
     event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -31,6 +43,8 @@ export default observer(function ActivityForm() {
     const { name, value } = event.target;
     setActivity({ ...activity, [name]: value });
   };
+
+  if (loadingInitial) return <Loading content="Loading App ......" />;
 
   return (
     <Segment clearing>
@@ -80,6 +94,8 @@ export default observer(function ActivityForm() {
           content="Submit"
         />
         <Button
+          as={Link}
+          to={`/activity`}
           floated="right"
           positive
           type="button"

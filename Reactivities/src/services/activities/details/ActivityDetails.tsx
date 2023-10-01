@@ -4,6 +4,7 @@ import { useStore } from "../../../app/stores/store";
 import Loading from "../../../app/layout/Loading";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 export default observer(function ActivityDetails() {
   const { activityStore } = useStore();
   const {
@@ -30,8 +31,20 @@ export default observer(function ActivityDetails() {
       </Card.Content>
       <Card.Content extra>
         <Button.Group widths="2">
-          <Button basic color="blue" content="Edit"></Button>
-          <Button basic color="grey" content="Cancel"></Button>
+          <Button
+            as={Link}
+            to={`/manage/${activity.id}`}
+            basic
+            color="blue"
+            content="Edit"
+          ></Button>
+          <Button
+            as={Link}
+            to={`/activity`}
+            basic
+            color="grey"
+            content="Cancel"
+          ></Button>
         </Button.Group>
       </Card.Content>
     </Card>

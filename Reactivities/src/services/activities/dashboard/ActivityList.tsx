@@ -5,7 +5,7 @@ import { observer } from "mobx-react-lite";
 import { Link } from "react-router-dom";
 export default observer(function ActivityList() {
   const { activityStore } = useStore();
-  const { loading, deleteActivity, activities } = activityStore;
+  const { loading, deleteActivity, activityByDate } = activityStore;
   const [target, setTarget] = useState("");
 
   const handleActivityDelete = (
@@ -18,7 +18,7 @@ export default observer(function ActivityList() {
   return (
     <Segment>
       <Item.Group divided>
-        {activities.map((activity) => (
+        {activityByDate.map((activity) => (
           <Item key={activity.id}>
             <Item.Content>
               <Item.Header as="a">{activity.title}</Item.Header>
