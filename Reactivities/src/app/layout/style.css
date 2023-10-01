@@ -10,3 +10,8 @@ body {
     rgb(32, 167, 172) 89%
   ) !important;
 }
+
+.react-calendar {
+  width: 100%;
+  border: none;
+}

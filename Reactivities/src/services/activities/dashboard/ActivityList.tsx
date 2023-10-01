@@ -6,10 +6,7 @@ import { Fragment } from "react";
 
 export default observer(function ActivityList() {
   const { activityStore } = useStore();
-  const { activityByDate, groupedActivities } = activityStore;
-  const [a, b] = groupedActivities;
-  console.log(a[0]);
-  console.log(b);
+  const { groupedActivities } = activityStore;
   return (
     <>
       {groupedActivities.map(([date, activities]) => (
@@ -17,13 +14,9 @@ export default observer(function ActivityList() {
           <Header sub color="teal">
             {date}
           </Header>
-          <Segment>
-            <Item.Group divided>
-              {activities.map((activity) => (
-                <ActivityListItem key={activity.id} activity={activity} />
-              ))}
-            </Item.Group>
-          </Segment>
+          {activities.map((activity) => (
+            <ActivityListItem key={activity.id} activity={activity} />
+          ))}
         </Fragment>
       ))}
     </>
