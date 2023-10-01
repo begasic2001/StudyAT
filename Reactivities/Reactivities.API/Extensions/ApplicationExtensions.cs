@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FluentValidation;
+using FluentValidation.AspNetCore;
+using Microsoft.EntityFrameworkCore;
 using Reactivities.Application.Activities;
 using Reactivities.Application.Core;
 using Reactivities.Persistence;
@@ -24,11 +26,13 @@ namespace Reactivities.API.Extensions
                         policy
                                    .AllowAnyMethod()
                                    .AllowAnyHeader()
-                                   .WithOrigins("http://localhost:3001");
+                                   .WithOrigins("http://localhost:5173");
 
                     });
                 });
                 services.AddAutoMapper(typeof(MappingProfiles).Assembly);
+                services.AddFluentValidationAutoValidation();
+                services.AddValidatorsFromAssemblyContaining<Create>();
                 return services;
             }
         }
