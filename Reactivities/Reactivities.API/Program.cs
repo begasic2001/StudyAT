@@ -1,3 +1,4 @@
+using Reactivities.API.ExceptionMiddleware;
 using Reactivities.API.Extensions;
 using Reactivities.Application.Activities;
 using Reactivities.Application.Core;
@@ -9,7 +10,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
 var app = builder.Build();
-
+app.UseMiddleware<ExceptionMiddleware>();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
