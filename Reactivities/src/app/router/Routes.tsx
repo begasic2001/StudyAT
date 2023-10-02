@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouteObject } from "react-router-dom";
 import App from "../layout/App";
-import HomePage from "../../services/home/HomePage";
 import ActivityDashboard from "../../services/activities/dashboard/ActivityDashboard";
 import ActivityForm from "../../services/activities/form/ActivityForm";
 import ActivityDetails from "../../services/activities/details/ActivityDetails";
+import TestErrors from "../../services/errors/TestError";
 
 export const routes: RouteObject[] = [
   {
@@ -27,7 +27,10 @@ export const routes: RouteObject[] = [
         path: "manage/:id",
         element: <ActivityForm key="manage" />,
       },
-      // <ActivityDashboard />
+      {
+        path: "errors",
+        element: <TestErrors />,
+      },
     ],
   },
 ];
