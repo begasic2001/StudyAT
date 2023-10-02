@@ -9,3 +9,4 @@ C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\obj\Debug\n
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\obj\Debug\net7.0\refint\Reactivities.Domain.dll
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\obj\Debug\net7.0\Reactivities.Domain.pdb
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\obj\Debug\net7.0\ref\Reactivities.Domain.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.Domain\obj\Debug\net7.0\Reactivities.Domain.csproj.AssemblyReference.cache

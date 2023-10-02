@@ -1,11 +1,10 @@
 using Reactivities.API.ExceptionMiddleware;
 using Reactivities.API.Extensions;
-using Reactivities.Application.Activities;
-using Reactivities.Application.Core;
-using Reactivities.Persistence;
+
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddApplicationServices(builder.Configuration);
+builder.Services.AddIdentityServices(builder.Configuration);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
