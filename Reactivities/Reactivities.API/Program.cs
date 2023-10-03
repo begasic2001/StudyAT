@@ -1,6 +1,10 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Reactivities.API;
 using Reactivities.API.ExceptionMiddleware;
 using Reactivities.API.Extensions;
-
+using Reactivities.Domain;
+using Reactivities.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddApplicationServices(builder.Configuration);
@@ -21,6 +25,18 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 app.UseCors("CorsPolicy");
+using var scope = app.Services.CreateScope();
+var services = scope.ServiceProvider;
 app.MapControllers();
-
+try
+{
+    var context = services.GetRequiredService<ReactivitiesContext>();
+    var userManager = services.GetRequiredService<UserManager<AppUser>>();
+    await context.Database.MigrateAsync();
+    await Seed.SeedData(context, userManager);
+}catch(Exception ex)
+{
+    var logger = services.GetRequiredService<ILogger<Program>>();
+    logger.LogError(ex, "An error occured during migration");
+}
 app.Run();

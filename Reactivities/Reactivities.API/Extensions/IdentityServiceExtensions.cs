@@ -5,6 +5,7 @@ using Reactivities.Application.Activities;
 using Reactivities.Application.Core;
 using Reactivities.Persistence;
 using Reactivities.Domain;
+using Reactivities.API.Services;
 
 namespace Reactivities.API.Extensions
 {
@@ -18,6 +19,7 @@ namespace Reactivities.API.Extensions
                     opt.Password.RequireNonAlphanumeric = false;
                 }).AddEntityFrameworkStores<ReactivitiesContext>();
                 services.AddAuthentication();
+                services.AddScoped<TokenService>();
                 return services;
             }
         }

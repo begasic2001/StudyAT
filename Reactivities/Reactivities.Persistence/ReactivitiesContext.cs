@@ -117,37 +117,6 @@ namespace Reactivities.Persistence
                     City = "London",
                     Venue = "Cinema",
                 }
-            );
-
-            modelBuilder.Entity<AppUser>().HasData(
-                new AppUser
-                {
-                    DisplayName="Mi ong",
-                    UserName="Miong",
-                    Email="miong@gmail.com",
-                    PasswordHash="123456"
-                },
-                 new AppUser
-                 {
-                     DisplayName = "Mi mi",
-                     UserName = "Mimi",
-                     Email = "mimi@gmail.com",
-                     PasswordHash = "123456"
-                 },
-                  new AppUser
-                  {
-                      DisplayName = "Mi panda",
-                      UserName = "Mipanda",
-                      Email = "mipanda@gmail.com",
-                      PasswordHash = "123456"
-                  },
-                   new AppUser
-                   {
-                       DisplayName = "Jenifer",
-                       UserName = "jenifer",
-                       Email = "jenifer@gmail.com",
-                       PasswordHash = "123456"
-                   }
            );
         }
     }
