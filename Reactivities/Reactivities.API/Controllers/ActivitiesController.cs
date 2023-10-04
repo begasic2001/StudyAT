@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using MediatR;
 using Reactivities.Application.Activities;
 using Reactivities.Application.Core;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Reactivities.API.Controllers
 {
@@ -19,6 +20,7 @@ namespace Reactivities.API.Controllers
             var res = await Mediator.Send(new List.Query());
             return HandleResult(res);
         }
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetActivity(Guid id)
         {
