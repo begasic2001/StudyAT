@@ -6,6 +6,7 @@ import ActivityDetails from "../../services/activities/details/ActivityDetails";
 import TestErrors from "../../services/errors/TestError";
 import NotFound from "../../services/errors/NotFound";
 import ServerError from "../../services/errors/ServerError";
+import LoginForm from "../../services/activities/form/LoginForm";
 
 export const routes: RouteObject[] = [
   {
@@ -28,6 +29,10 @@ export const routes: RouteObject[] = [
       {
         path: "manage/:id",
         element: <ActivityForm key="manage" />,
+      },
+      {
+        path: "login",
+        element: <LoginForm />,
       },
       {
         path: "errors",

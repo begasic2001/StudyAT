@@ -1,12 +1,10 @@
-import { Container } from "semantic-ui-react";
+import { Button, Container } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 export default function HomePage() {
   return (
     <Container style={{ marginTop: "7em" }}>
       <div>HomePage</div>
-      <div>
-        Go to <Link to="/activity">activity</Link>
-      </div>
+      <Button as={Link} to={"/login"} content="Login"></Button>
     </Container>
   );
 }
