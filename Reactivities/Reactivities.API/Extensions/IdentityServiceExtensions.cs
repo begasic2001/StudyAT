@@ -4,6 +4,8 @@ using Reactivities.API.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.AspNetCore.Mvc;
+using Reactivities.API.Dtos;
 
 namespace Reactivities.API.Extensions
 {
@@ -15,6 +17,7 @@ namespace Reactivities.API.Extensions
                 services.AddIdentityCore<AppUser>(opt =>
                 {
                     opt.Password.RequireNonAlphanumeric = false;
+                    opt.User.RequireUniqueEmail = true;
                 }).AddEntityFrameworkStores<ReactivitiesContext>();
 
                 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["TokenKey"]));
@@ -35,5 +38,6 @@ namespace Reactivities.API.Extensions
                 return services;
             }
         }
+      
     }
 }
