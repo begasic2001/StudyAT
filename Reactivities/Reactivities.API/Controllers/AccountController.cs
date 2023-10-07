@@ -43,12 +43,14 @@ namespace Reactivities.API.Controllers
         {
             if (await _userManager.Users.AnyAsync(x => x.UserName == registerDto.UserName))
             {
-                return BadRequest("UserName has been taken!");
+                ModelState.AddModelError("username", "UserName has been taken!");
+                return ValidationProblem();
             }
 
             if (await _userManager.Users.AnyAsync(x => x.Email == registerDto.Email))
             {
-                return BadRequest("Email has been taken!");
+                ModelState.AddModelError("email", "Email has been taken!");
+                return ValidationProblem();
             }
 
             var user = new AppUser
