@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Reactivities.Application.Activities;
 using Reactivities.Application.Core;
 using Reactivities.Application.Interfaces;
+using Reactivities.Infrastructure.Security;
 using Reactivities.Persistence;
 
 namespace Reactivities.API.Extensions
@@ -35,7 +36,7 @@ namespace Reactivities.API.Extensions
                 services.AddFluentValidationAutoValidation();
                 services.AddValidatorsFromAssemblyContaining<Create>();
                 services.AddHttpContextAccessor();
-                services.AddScoped<IUserAccessor, IUserAccessor>();
+                services.AddScoped<IUserAccessor, UserAccessor>();
                 return services;
             }
         }

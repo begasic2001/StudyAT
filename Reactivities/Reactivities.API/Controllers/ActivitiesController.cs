@@ -14,6 +14,7 @@ namespace Reactivities.API.Controllers
     [ApiController]
     public class ActivitiesController : BaseApiController
     {
+        [Authorize]
         [HttpGet] // api/activities
         public async Task<IActionResult> GetActivities()
         {

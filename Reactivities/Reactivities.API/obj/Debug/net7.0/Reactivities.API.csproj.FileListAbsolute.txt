@@ -94,3 +94,5 @@ C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\Reactivities.Infrastructure.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\Reactivities.Infrastructure.pdb

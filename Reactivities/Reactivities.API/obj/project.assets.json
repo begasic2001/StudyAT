@@ -1341,6 +1341,19 @@
           "bin/placeholder/Reactivities.Domain.dll": {}
         }
       },
+      "Reactivities.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Reactivities.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Reactivities.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reactivities.Infrastructure.dll": {}
+        }
+      },
       "Reactivities.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3559,6 +3572,11 @@
       "path": "../Reactivities.Domain/Reactivities.Domain.csproj",
       "msbuildProject": "../Reactivities.Domain/Reactivities.Domain.csproj"
     },
+    "Reactivities.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Reactivities.Infrastructure/Reactivities.Infrastructure.csproj",
+      "msbuildProject": "../Reactivities.Infrastructure/Reactivities.Infrastructure.csproj"
+    },
     "Reactivities.Persistence/1.0.0": {
       "type": "project",
       "path": "../Reactivities.Persistence/Reactivities.Persistence.csproj",
@@ -3573,6 +3591,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.11",
       "Reactivities.Application >= 1.0.0",
+      "Reactivities.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "System.IdentityModel.Tokens.Jwt >= 7.0.2"
     ]
@@ -3611,6 +3630,9 @@
           "projectReferences": {
             "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.Application\\Reactivities.Application.csproj": {
               "projectPath": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.Application\\Reactivities.Application.csproj"
+            },
+            "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.Infrastructure\\Reactivities.Infrastructure.csproj": {
+              "projectPath": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.Infrastructure\\Reactivities.Infrastructure.csproj"
             }
           }
         }

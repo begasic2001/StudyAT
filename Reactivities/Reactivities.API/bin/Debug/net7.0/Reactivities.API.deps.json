@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.Design": "7.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11",
           "Reactivities.Application": "1.0.0",
+          "Reactivities.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0",
           "System.IdentityModel.Tokens.Jwt": "7.0.2"
         },
@@ -761,6 +762,14 @@
           "Reactivities.Domain.dll": {}
         }
       },
+      "Reactivities.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Reactivities.Application": "1.0.0"
+        },
+        "runtime": {
+          "Reactivities.Infrastructure.dll": {}
+        }
+      },
       "Reactivities.Persistence/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.11",
@@ -1311,6 +1320,11 @@
       "sha512": ""
     },
     "Reactivities.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reactivities.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
