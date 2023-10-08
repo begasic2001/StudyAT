@@ -3,21 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactivities.API", "Reactivities.API\Reactivities.API.csproj", "{9949FF82-F6C9-44CC-A9CB-731C300AAD65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reactivities.API", "Reactivities.API\Reactivities.API.csproj", "{9949FF82-F6C9-44CC-A9CB-731C300AAD65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactivities.Application", "Reactivities.Application\Reactivities.Application.csproj", "{AB0A3135-924D-4919-BBB0-ED29517F6ED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reactivities.Application", "Reactivities.Application\Reactivities.Application.csproj", "{AB0A3135-924D-4919-BBB0-ED29517F6ED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactivities.Domain", "Reactivities.Domain\Reactivities.Domain.csproj", "{98D45DDC-D474-43E8-A246-F1F92BBC5C5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reactivities.Domain", "Reactivities.Domain\Reactivities.Domain.csproj", "{98D45DDC-D474-43E8-A246-F1F92BBC5C5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactivities.Persistence", "Reactivities.Persistence\Reactivities.Persistence.csproj", "{A537443A-EAAD-48BC-BD13-0D091390077A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reactivities.Persistence", "Reactivities.Persistence\Reactivities.Persistence.csproj", "{A537443A-EAAD-48BC-BD13-0D091390077A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactivities.Infrastructure", "Reactivities.Infrastructure\Reactivities.Infrastructure.csproj", "{F3DF1CC8-311D-436B-8F49-E7ABF35B9F8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9949FF82-F6C9-44CC-A9CB-731C300AAD65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +35,15 @@ Global
 		{A537443A-EAAD-48BC-BD13-0D091390077A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A537443A-EAAD-48BC-BD13-0D091390077A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A537443A-EAAD-48BC-BD13-0D091390077A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DF1CC8-311D-436B-8F49-E7ABF35B9F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DF1CC8-311D-436B-8F49-E7ABF35B9F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DF1CC8-311D-436B-8F49-E7ABF35B9F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DF1CC8-311D-436B-8F49-E7ABF35B9F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {540DC17F-7C5B-4221-B07D-8C012140FD43}
 	EndGlobalSection
 EndGlobal
