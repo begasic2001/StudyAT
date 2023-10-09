@@ -1,13 +1,11 @@
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Reactivities.API;
 using Reactivities.API.ExceptionMiddleware;
 using Reactivities.API.Extensions;
 using Reactivities.Domain;
 using Reactivities.Persistence;
-using System.Net;
+
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddApplicationServices(builder.Configuration);
