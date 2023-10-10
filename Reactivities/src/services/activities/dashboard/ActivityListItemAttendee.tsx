@@ -8,7 +8,7 @@ export default function ActivityListItemAttendee({ attendees }: Props) {
   return (
     <List horizontal>
       {attendees.map((a) => (
-        <List.Item key={a.username} as={Link} to={`/profiles/${a.username}`}>
+        <List.Item key={a.userName} as={Link} to={`/profiles/${a.userName}`}>
           <Image size="mini" circular src={a.image || "/assets/user.png"} />
         </List.Item>
       ))}
