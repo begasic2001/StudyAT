@@ -3,7 +3,7 @@ import { useParams, useNavigate, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useStore } from "../../../app/stores/store";
 import { observer } from "mobx-react-lite";
-import { Activity } from "../../../app/models/activity";
+import { Activity, ActivityFormValues } from "../../../app/models/activity";
 import Loading from "../../../app/layout/Loading";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
@@ -23,15 +23,9 @@ export default observer(function ActivityForm() {
     createActivity,
   } = activityStore;
   const { id } = useParams<{ id: string }>();
-  const [activity, setActivity] = useState<Activity>({
-    id: "",
-    title: "",
-    category: "",
-    description: "",
-    date: null,
-    city: "",
-    venue: "",
-  });
+  const [activity, setActivity] = useState<ActivityFormValues>(
+    new ActivityFormValues()
+  );
   const navigate = useNavigate();
   const validationSchema = Yup.object({
     title: Yup.string().required("The activity title is required"),
@@ -42,9 +36,12 @@ export default observer(function ActivityForm() {
     city: Yup.string().required(),
   });
   useEffect(() => {
-    if (id) loadActivity(id).then((activity) => setActivity(activity!));
+    if (id)
+      loadActivity(id).then((activity) =>
+        setActivity(new ActivityFormValues(activity))
+      );
   }, [id, loadActivity]);
-  const handleFormSubmit = (activity: Activity) => {
+  const handleFormSubmit = (activity: ActivityFormValues) => {
     if (activity.id) {
       updateActivity(activity).then(() => navigate(`/activity/${activity.id}`));
     } else {
@@ -85,7 +82,7 @@ export default observer(function ActivityForm() {
             <MyTextInput placeholder="Venue" name="venue" />
             <Button
               disabled={isSubmitting || !dirty || !isValid}
-              loading={loading}
+              loading={isSubmitting}
               floated="right"
               positive
               type="submit"
