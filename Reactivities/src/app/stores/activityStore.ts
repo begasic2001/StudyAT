@@ -3,6 +3,7 @@ import { Activity } from "../models/activity";
 import agent from "../api/agent";
 import { format } from "date-fns";
 import { store } from "./store";
+import { Profile } from "../models/profile";
 export default class ActivityStore {
   selectedActivity: Activity | undefined = undefined;
   activityRegistry = new Map<string, Activity>();
@@ -34,6 +35,7 @@ export default class ActivityStore {
     try {
       const activities = await agent.Activities.list();
       activities.forEach((activity) => {
+        console.log("check activity:::::::::::::", activity);
         this.setActivity(activity);
       });
       this.setLoadingInitial(false);
@@ -65,7 +67,6 @@ export default class ActivityStore {
   private setActivity = (activity: Activity) => {
     const user = store.userStore.user;
     if (user) {
-      console.log("ishost check",activity.hostUserName)
       activity.isGoing = activity.attendees!.some(
         (a) => a.userName === user.userName
       );
@@ -74,10 +75,8 @@ export default class ActivityStore {
         (x) => x.userName === activity.hostUserName
       );
       activity.date = new Date(activity.date!);
-    console.log("check activity>>>>>>>", activity);
-    this.activityRegistry.set(activity.id, activity);
+      this.activityRegistry.set(activity.id, activity);
     }
-    
   };
 
   private getActivity = (id: string) => {
@@ -137,6 +136,35 @@ export default class ActivityStore {
       runInAction(() => {
         this.loading = false;
       });
+    }
+  };
+
+  updateAttendance = async () => {
+    const user = store.userStore.user;
+    this.loading = true;
+    try {
+      await agent.Activities.attend(this.selectedActivity!.id);
+      runInAction(() => {
+        if (this.selectedActivity?.isGoing) {
+          this.selectedActivity.attendees =
+            this.selectedActivity.attendees?.filter(
+              (a) => a.userName !== user?.userName
+            );
+          this.selectedActivity.isGoing = false;
+        } else {
+          const attendee = new Profile(user!);
+          this.selectedActivity?.attendees?.push(attendee);
+          this.selectedActivity!.isGoing = true;
+        }
+        this.activityRegistry.set(
+          this.selectedActivity!.id,
+          this.selectedActivity!
+        );
+      });
+    } catch (error) {
+      console.log(error);
+    } finally {
+      runInAction(() => (this.loading = false));
     }
   };
 }
