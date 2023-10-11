@@ -65,16 +65,19 @@ export default class ActivityStore {
   private setActivity = (activity: Activity) => {
     const user = store.userStore.user;
     if (user) {
+      console.log("ishost check",activity.hostUserName)
       activity.isGoing = activity.attendees!.some(
-        (a) => a.userName === user.username
+        (a) => a.userName === user.userName
       );
-      activity.isHost = activity.hostUserName === user.username;
+      activity.isHost = activity.hostUserName === user.userName;
       activity.host = activity.attendees?.find(
         (x) => x.userName === activity.hostUserName
       );
-    }
-    activity.date = new Date(activity.date!);
+      activity.date = new Date(activity.date!);
+    console.log("check activity>>>>>>>", activity);
     this.activityRegistry.set(activity.id, activity);
+    }
+    
   };
 
   private getActivity = (id: string) => {

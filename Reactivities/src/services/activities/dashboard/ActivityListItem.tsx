@@ -25,29 +25,31 @@ export default function ActivityListItem({ activity }: Props) {
     <Segment.Group>
       <Segment>
         <Item.Group>
-          <Item.Image size="tiny" circular src="/assets/user.png" />
-          <Item.Content>
-            <Item.Header as={Link} to={`/activity/${activity.id}`}>
-              {activity.title}
-            </Item.Header>
-            <Item.Description>
-              Hosted By {activity.host?.displayName}
-            </Item.Description>
-            {activity.isHost && (
+          <Item>
+            <Item.Image size="tiny" circular src="/assets/user.png" />
+            <Item.Content>
+              <Item.Header as={Link} to={`/activity/${activity.id}`}>
+                {activity.title}
+              </Item.Header>
               <Item.Description>
-                <Label basic color="orange">
-                  You are hosting this activity
-                </Label>
+                Hosted By {activity.host?.displayName}
               </Item.Description>
-            )}
-            {activity.isGoing && !activity.isHost && (
-              <Item.Description>
-                <Label basic color="green">
-                  You are going to this activity
-                </Label>
-              </Item.Description>
-            )}
-          </Item.Content>
+              {activity.isHost && (
+                <Item.Description>
+                  <Label basic color="orange">
+                    You are hosting this activity
+                  </Label>
+                </Item.Description>
+              )}
+              {activity.isGoing && !activity.isHost && (
+                <Item.Description>
+                  <Label basic color="green">
+                    You are going to this activity
+                  </Label>
+                </Item.Description>
+              )}
+            </Item.Content>
+          </Item>
         </Item.Group>
       </Segment>
       <Segment>
