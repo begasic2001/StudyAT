@@ -96,3 +96,5 @@ C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\Reactivities.Infrastructure.dll
 C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\Reactivities.Infrastructure.pdb
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\CloudinaryDotNet.dll
+C:\workspace\StudyAT\StudyAT_BE\src\Reactivities\Reactivities.API\bin\Debug\net7.0\Newtonsoft.Json.dll

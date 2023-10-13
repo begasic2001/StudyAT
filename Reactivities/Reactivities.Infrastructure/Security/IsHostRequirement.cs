@@ -35,7 +35,6 @@ namespace Reactivities.Infrastructure.Security
              * The assumption here is that there's a route parameter named "id" containing the activity's identifier.
              */
             var activityId = Guid.Parse(_httpContextAccessor.HttpContext?.Request.RouteValues
-                
                 .SingleOrDefault(x => x.Key =="id").Value?.ToString());
 
             var attendee = _dbContext.ActivityAttendees

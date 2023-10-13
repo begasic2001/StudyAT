@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CloudinaryDotNet" Version="1.22.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Reactivities.Application\Reactivities.Application.csproj" />
   </ItemGroup>
 

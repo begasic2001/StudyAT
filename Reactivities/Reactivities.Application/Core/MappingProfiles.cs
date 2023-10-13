@@ -10,7 +10,7 @@ namespace Reactivities.Application.Core
     {
         public MappingProfiles()
         {
-            CreateMap<Activity, Activity>();
+            //CreateMap<Activity, Activity>();
             CreateMap<Activity, ActivityDto>()
                     .ForMember(d => d.HostUserName, 
                     o => o.MapFrom(s => s.Attendees.FirstOrDefault(x => x.IsHost).AppUser.UserName));
