@@ -14,7 +14,7 @@ namespace Reactivities.Infrastructure.Photos
 {
     public class PhotoAccessor : IPhotoAccessor
     {
-        private readonly Cloudinary _cloudinaty;
+        private readonly Cloudinary _cloudinary;
         public PhotoAccessor(IOptions<CloudinarySetting> config)
         {
             var account = new Account(
@@ -22,7 +22,7 @@ namespace Reactivities.Infrastructure.Photos
                 config.Value.ApiKey,
                 config.Value.ApiSecret
             );
-            _cloudinaty = new Cloudinary(account);
+            _cloudinary = new Cloudinary(account);
         }
         public async Task<PhotoUploadResult> AddPhoto(IFormFile file)
         {
@@ -35,7 +35,7 @@ namespace Reactivities.Infrastructure.Photos
                     Transformation = new Transformation().Height(500).Width(500).Crop("fill")
                 };
 
-                var uploadResult = await _cloudinaty.UploadAsync(uploadParams);
+                var uploadResult = await _cloudinary.UploadAsync(uploadParams);
                 if(uploadResult.Error != null)
                 {
                     throw new Exception(uploadResult.Error.Message);
@@ -53,7 +53,7 @@ namespace Reactivities.Infrastructure.Photos
         public async Task<string> DeletePhoto(string publicId)
         {
             var deleteParams = new DeletionParams(publicId);
-            var result = await _cloudinaty.DestroyAsync(deleteParams);
+            var result = await _cloudinary.DestroyAsync(deleteParams);
             return result.Result == "ok" ? result.Result : null;
         }
     }
