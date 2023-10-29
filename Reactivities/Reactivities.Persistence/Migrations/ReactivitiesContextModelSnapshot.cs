@@ -282,6 +282,36 @@ namespace Reactivities.Persistence.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("Reactivities.Domain.Comment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<Guid>("ActivityId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("AuthorId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Body")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ActivityId");
+
+                    b.HasIndex("AuthorId");
+
+                    b.ToTable("Comments");
+                });
+
             modelBuilder.Entity("Reactivities.Domain.Photo", b =>
                 {
                     b.Property<string>("Id")
@@ -374,6 +404,23 @@ namespace Reactivities.Persistence.Migrations
                     b.Navigation("AppUser");
                 });
 
+            modelBuilder.Entity("Reactivities.Domain.Comment", b =>
+                {
+                    b.HasOne("Reactivities.Domain.Activity", "Activity")
+                        .WithMany("Comments")
+                        .HasForeignKey("ActivityId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Reactivities.Domain.AppUser", "Author")
+                        .WithMany()
+                        .HasForeignKey("AuthorId");
+
+                    b.Navigation("Activity");
+
+                    b.Navigation("Author");
+                });
+
             modelBuilder.Entity("Reactivities.Domain.Photo", b =>
                 {
                     b.HasOne("Reactivities.Domain.AppUser", null)
@@ -384,6 +431,8 @@ namespace Reactivities.Persistence.Migrations
             modelBuilder.Entity("Reactivities.Domain.Activity", b =>
                 {
                     b.Navigation("Attendees");
+
+                    b.Navigation("Comments");
                 });
 
             modelBuilder.Entity("Reactivities.Domain.AppUser", b =>
