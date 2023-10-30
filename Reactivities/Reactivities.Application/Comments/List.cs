@@ -1,5 +1,9 @@
-﻿using MediatR;
+﻿using AutoMapper;
+using AutoMapper.QueryableExtensions;
+using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Reactivities.Application.Core;
+using Reactivities.Persistence;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,9 +21,23 @@ namespace Reactivities.Application.Comments
 
         public class Handler : IRequestHandler<Query, Result<List<CommentDto>>>
         {
-            public Task<Result<List<CommentDto>>> Handle(Query request, CancellationToken cancellationToken)
+            private readonly ReactivitiesContext _context;
+            private readonly IMapper _mapper;
+
+            public Handler(ReactivitiesContext context,IMapper mapper)
             {
-                throw new NotImplementedException();
+                _context = context;
+                _mapper = mapper;
+            }
+            public async Task<Result<List<CommentDto>>> Handle(Query request, CancellationToken cancellationToken)
+            {
+                var comments = await _context.Comments
+                    .Where(x => x.Activity.Id == request.ActitityId)
+                    .OrderBy(x => x.CreatedAt)
+                    .ProjectTo<CommentDto>(_mapper.ConfigurationProvider)
+                    .ToListAsync();
+
+                return Result<List<CommentDto>>.Success(comments);
             }
         }
     }
