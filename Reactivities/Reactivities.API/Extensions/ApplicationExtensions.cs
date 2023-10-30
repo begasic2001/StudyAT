@@ -40,6 +40,7 @@ namespace Reactivities.API.Extensions
                 services.AddScoped<IUserAccessor, UserAccessor>();
                 services.AddScoped<IPhotoAccessor, PhotoAccessor>();
                 services.Configure<CloudinarySetting>(configuration.GetSection("Cloudinary"));
+                services.AddSignalR();
                 return services;
             }
         }

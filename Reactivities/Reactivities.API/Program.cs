@@ -1,8 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Reactivities.API;
 using Reactivities.API.ExceptionMiddleware;
 using Reactivities.API.Extensions;
+using Reactivities.API.SignalR;
 using Reactivities.Domain;
 using Reactivities.Persistence;
 
@@ -33,6 +36,8 @@ app.UseCors("CorsPolicy");
 using var scope = app.Services.CreateScope();
 var services = scope.ServiceProvider;
 app.MapControllers();
+app.MapHub<ChatHub>("/chat");
+
 try
 {
     var context = services.GetRequiredService<ReactivitiesContext>();
