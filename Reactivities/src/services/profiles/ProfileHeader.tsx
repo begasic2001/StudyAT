@@ -23,7 +23,7 @@ export default observer(function ProfileHeader({ profile }: Props) {
               <Item.Image
                 avatar
                 size="small"
-                src={profile.image || `assets/user.png`}
+                src={profile.image || `/assets/user.png`}
               />
               <Item.Content verticalAlign="middle">
                 <Header as="h1" content={profile.displayName} />
