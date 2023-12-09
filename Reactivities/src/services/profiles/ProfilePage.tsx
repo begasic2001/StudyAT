@@ -1,4 +1,4 @@
-import { Card, Grid } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import ProfileHeader from "./ProfileHeader";
 import ProfileContent from "./ProfileContent";
 import { observer } from "mobx-react-lite";
@@ -16,8 +16,6 @@ export default observer(function ProfilePage() {
   }, [loadProfile, username]);
 
   if (loadingProfile) return <Loading content="Loading Profile..." />;
-
-  console.log(profile)
 
   return (
     <Grid>

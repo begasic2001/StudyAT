@@ -26,4 +26,4 @@ export default observer(function ProfileContent({ profile }: Props) {
       panes={panes}
     />
   );
-});
+})

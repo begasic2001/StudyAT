@@ -25,7 +25,6 @@ export default class ProfileStore {
         this.profile = profile;
         this.loadingProfile = false;
       });
-      console.log(profile)
     } catch (error) {
       console.log(error);
       runInAction(() => (this.loadingProfile = false));
@@ -41,8 +40,8 @@ export default class ProfileStore {
         if (this.profile) {
           this.profile.photos?.push(photo);
           if (photo.isMain && store.userStore.user) {
-            store.userStore.setImage(photo.url);
-            this.profile.image = photo.url;
+            store.userStore.setImage(photo.imageUrl);
+            this.profile.image = photo.imageUrl;
           }
         }
         this.uploading = false;

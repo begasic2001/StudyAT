@@ -10,7 +10,8 @@ export interface IProfile {
 
 export class Profile implements IProfile {
   constructor(user: User) {
-    (this.userName = user.userName), (this.displayName = user.displayName);
+    this.userName = user.userName, 
+    this.displayName = user.displayName;
     this.image = user.image;
   }
 
@@ -23,6 +24,6 @@ export class Profile implements IProfile {
 
 export interface Photo {
   id: string;
-  url: string;
+  imageUrl: string;
   isMain: boolean;
 }

@@ -8,7 +8,7 @@ import { observer } from "mobx-react-lite";
 interface Props {
   profile: Profile;
 }
-const ProfilePhoto = ({ profile }: Props) => {
+export default observer(function ProfilePhoto  ({ profile }: Props)  {
 
   const {
     profileStore: { isCurrentUser, uploadPhoto, uploading },
@@ -44,7 +44,7 @@ const ProfilePhoto = ({ profile }: Props) => {
             <Card.Group itemsPerRow={5}>
               {profile.photos?.map((photo) => (
                 <Card key={photo.id}>
-                  <Image src={photo.url} />
+                  <Image src={photo.imageUrl} />
                 </Card>
               ))}
             </Card.Group>
@@ -53,6 +53,6 @@ const ProfilePhoto = ({ profile }: Props) => {
       </Grid>
     </Tab.Pane>
   );
-};
+})
 
-export default observer(ProfilePhoto);
+
