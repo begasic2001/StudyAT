@@ -3,15 +3,22 @@ import { Profile } from "../../app/models/profile";
 import { useStore } from "../../app/stores/store";
 import { useState } from "react";
 import PhotoUploadWidget from "../../app/common/imageUpload/PhotoUploadWidget";
+import { observer } from "mobx-react-lite";
 
 interface Props {
   profile: Profile;
 }
 const ProfilePhoto = ({ profile }: Props) => {
+
   const {
-    profileStore: { isCurrentUser },
+    profileStore: { isCurrentUser, uploadPhoto, uploading },
   } = useStore();
   const [addPhotoMode, setAddPhotoMode] = useState(false);
+
+  const handlePhotoUpload = (file: Blob) => {
+    uploadPhoto(file).then(() => setAddPhotoMode(false));
+  };
+
   return (
     <Tab.Pane>
       <Grid>
@@ -26,9 +33,13 @@ const ProfilePhoto = ({ profile }: Props) => {
             />
           )}
         </Grid.Column>
+
         <Grid.Column width={16}>
           {addPhotoMode ? (
-            <PhotoUploadWidget/>
+            <PhotoUploadWidget
+              uploadPhoto={handlePhotoUpload}
+              loading={uploading}
+            />
           ) : (
             <Card.Group itemsPerRow={5}>
               {profile.photos?.map((photo) => (
@@ -44,4 +55,4 @@ const ProfilePhoto = ({ profile }: Props) => {
   );
 };
 
-export default ProfilePhoto;
+export default observer(ProfilePhoto);

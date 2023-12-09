@@ -1,4 +1,4 @@
-import { Grid } from "semantic-ui-react";
+import { Card, Grid } from "semantic-ui-react";
 import ProfileHeader from "./ProfileHeader";
 import ProfileContent from "./ProfileContent";
 import { observer } from "mobx-react-lite";
@@ -7,27 +7,28 @@ import { useStore } from "../../app/stores/store";
 import Loading from "../../app/layout/Loading";
 import { useEffect } from "react";
 
-function ProfilePage() {
+export default observer(function ProfilePage() {
   const { username } = useParams<{ username: string }>();
   const { profileStore } = useStore();
   const { loadProfile, loadingProfile, profile } = profileStore;
   useEffect(() => {
     if (username) loadProfile(username);
-  },[loadProfile,username]);
+  }, [loadProfile, username]);
 
   if (loadingProfile) return <Loading content="Loading Profile..." />;
+
+  console.log(profile)
+
   return (
     <Grid>
       <Grid.Column width={16}>
-        {profile && 
-        <>
-          <ProfileHeader profile={profile} />
-          <ProfileContent profile={profile}/>
-        </>
-        }
+        {profile && (
+          <>
+            <ProfileHeader profile={profile} />
+            <ProfileContent profile={profile} />
+          </>
+        )}
       </Grid.Column>
     </Grid>
   );
-}
-
-export default observer(ProfilePage);
+});
