@@ -32,6 +32,7 @@ namespace Reactivities.Application.Photos
 
                 if (user == null) return null;
                 var photo = user.Photos.FirstOrDefault(x => x.Id == request.Id);
+                Console.WriteLine(photo);
                 if (photo == null) return null;
                 if (photo.IsMain) return Result<Unit>.Failure("You can not delete your main photo");
 
@@ -39,8 +40,10 @@ namespace Reactivities.Application.Photos
                 if (res == null) return Result<Unit>.Failure("Problem deleting photo from cloudinary");
                 user.Photos.Remove(photo);
                 var success = await _dbContext.SaveChangesAsync() > 0;
-                return Result<Unit>.Failure("Problem deleting photo");
-            
+                if(success) return Result<Unit>.Success(Unit.Value);
+
+                return Result<Unit>.Failure("Problem deleting photo from API");
+
             }
         }
     }

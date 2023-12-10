@@ -26,7 +26,7 @@ namespace Reactivities.API.SignalR
             var activityId = httpContext.Request.Query["activityId"];
             await Groups.AddToGroupAsync(Context.ConnectionId, activityId);
             var res = await _mediator.Send(new List.Query { ActitityId = Guid.Parse(activityId) });
-            await Clients.Caller.SendAsync("LoadComments", res);
+            await Clients.Caller.SendAsync("LoadComments", res.Value);
         }
     }
 }
