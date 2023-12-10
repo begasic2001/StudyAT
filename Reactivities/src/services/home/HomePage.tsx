@@ -8,7 +8,7 @@ export default observer(function HomePage() {
   const { userStore, modalStore } = useStore();
   return (
     <Container style={{ marginTop: "7em" }}>
-      <div>HomePage</div>
+      <div>Home Page</div>
       {userStore.isLoggedIn ? (
         <>
           <Header as="h2" inverted content="welcome to activity forum" />

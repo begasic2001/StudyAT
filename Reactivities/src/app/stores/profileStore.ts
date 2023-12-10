@@ -2,6 +2,7 @@ import { makeAutoObservable, runInAction } from "mobx";
 import { Photo, Profile } from "../models/profile";
 import agent from "../api/agent";
 import { store } from "./store";
+import { Activity } from "../models/activity";
 
 export default class ProfileStore {
   profile: Profile | null = null;
@@ -59,12 +60,24 @@ export default class ProfileStore {
     try {
       await agent.Profiles.setMainPhoto(photo.id);
       store.userStore.setImage(photo.imageUrl);
+      const user = store.userStore.user;
       runInAction(() => {
         if (this.profile && this.profile.photos) {
           this.profile.photos.find((p) => p.isMain)!.isMain = false;
           this.profile.photos.find((p) => p.id === photo.id)!.isMain = true;
           this.profile.image = photo.imageUrl;
           this.loading = false;
+          store.activityStore.activityRegistry.forEach((activity) => {
+            activity.host = activity.attendees?.find(
+              (x) => x.userName === activity.hostUserName
+            );
+            if (user) {
+              console.log("Photo is set main", photo.imageUrl);
+              if (activity.host?.image) {
+                activity.host!.image = photo.imageUrl;
+              }
+            }
+          });
         }
       });
     } catch (error) {

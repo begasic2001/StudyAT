@@ -34,6 +34,14 @@ export default observer(function ProfilePhoto({ profile }: Props) {
     setMainPhoto(photo);
   };
 
+  const handleDeletePhoto = (
+    photo: Photo,
+    e: SyntheticEvent<HTMLButtonElement>
+  ) => {
+    setTarget(e.currentTarget.name);
+    deletePhoto(photo);
+  };
+
   return (
     <Tab.Pane>
       <Grid>
@@ -66,12 +74,20 @@ export default observer(function ProfilePhoto({ profile }: Props) {
                         basic
                         color="green"
                         content="main"
-                        name={photo.id}
+                        name={"main" + photo.id}
                         disabled={photo.isMain}
-                        loading={target === photo.id && loading}
+                        loading={target === "main" + photo.id && loading}
                         onClick={(e) => handleSetMainPhoto(photo, e)}
                       />
-                      <Button basic color="red" icon="trash" />
+                      <Button
+                        basic
+                        color="red"
+                        icon="trash"
+                        disabled={photo.isMain}
+                        name={photo.id}
+                        loading={target === photo.id && loading}
+                        onClick={(e) => handleDeletePhoto(photo, e)}
+                      />
                     </Button.Group>
                   )}
                 </Card>
