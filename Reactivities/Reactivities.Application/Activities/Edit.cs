@@ -15,9 +15,9 @@ namespace Reactivities.Application.Activities
             public Activity Activity { get; set; }
         }
 
-        public class CommandValidtor : AbstractValidator<Command>
+        public class CommandValidator : AbstractValidator<Command>
         {
-            public CommandValidtor()
+            public CommandValidator()
             {
                 RuleFor(x => x.Activity).SetValidator(new ActivityValidator());
             }
@@ -27,7 +27,8 @@ namespace Reactivities.Application.Activities
         {
             private readonly ReactivitiesContext _context;
             private readonly IMapper _mapper;
-            public Handler(ReactivitiesContext context,IMapper mapper)
+
+            public Handler(ReactivitiesContext context, IMapper mapper)
             {
                 _mapper = mapper;
                 _context = context;
@@ -35,11 +36,16 @@ namespace Reactivities.Application.Activities
 
             public async Task<Result<Unit>> Handle(Command request, CancellationToken cancellationToken)
             {
-               var activity = await _context.Activities.FindAsync(request.Activity.Id);
+                var activity = await _context.Activities.FindAsync(request.Activity.Id);
+
                 if (activity == null) return null;
+
                 _mapper.Map(request.Activity, activity);
-                var res =await _context.SaveChangesAsync() > 0;
-                if (!res) return Result<Unit>.Failure("Failed to update activity");
+
+                var result = await _context.SaveChangesAsync() > 0;
+
+                if (!result) return Result<Unit>.Failure("Failed to update activity");
+
                 return Result<Unit>.Success(Unit.Value);
             }
         }

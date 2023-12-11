@@ -36,11 +36,10 @@ namespace Reactivities.API.Controllers
         }
         [Authorize(Policy = "IsActivityHost")]
         [HttpPut("{id}")]
-        public async Task<IActionResult> EditActivity(Guid id,Activity activity)
+        public async Task<IActionResult> Edit(Guid id, Activity activity)
         {
             activity.Id = id;
-            var res = await Mediator.Send(new Edit.Command { Activity = activity });
-            return HandleResult(res);
+            return HandleResult(await Mediator.Send(new Edit.Command { Activity = activity }));
         }
         [Authorize(Policy = "IsActivityHost")]
         [HttpDelete("{id}")]
