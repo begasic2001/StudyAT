@@ -10,6 +10,7 @@ import { store } from "./store";
 export default class CommentStore {
   comments: ChatComment[] = [];
   hubConnection: HubConnection | null = null;
+
   constructor() {
     makeAutoObservable(this);
   }
@@ -27,12 +28,17 @@ export default class CommentStore {
     this.hubConnection
       ?.start()
       .catch((err) => console.log(`Error establishing the connection ${err}`));
-    this.hubConnection?.on("LoadComments", (comment: ChatComment[]) => {
-      runInAction(() => (this.comments = comment));
+
+    this.hubConnection?.on("LoadComments", (comments: ChatComment[]) => {
+      runInAction(() => {
+        this.comments = comments;
+      });
     });
 
     this.hubConnection?.on("ReceiveComment", (comment: ChatComment) => {
-      runInAction(() => this.comments.push(comment));
+      runInAction(() => {
+        this.comments.push(comment);
+      });
     });
   };
 
@@ -44,4 +50,13 @@ export default class CommentStore {
     this.comments = [];
     this.stopHubConnection();
   };
+
+  addComment = async (values:any) => {
+    values.activityId = store.activityStore.selectedActivity?.id
+    try {
+      await this.hubConnection?.invoke("SendComment",values);
+    } catch (error) {
+      console.log(error)
+    }
+  }
 }

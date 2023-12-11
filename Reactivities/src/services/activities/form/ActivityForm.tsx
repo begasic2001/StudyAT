@@ -3,7 +3,7 @@ import { useParams, useNavigate, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useStore } from "../../../app/stores/store";
 import { observer } from "mobx-react-lite";
-import { Activity, ActivityFormValues } from "../../../app/models/activity";
+import { ActivityFormValues } from "../../../app/models/activity";
 import Loading from "../../../app/layout/Loading";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
@@ -15,13 +15,8 @@ import MySelectedInput from "../../../app/common/form/MySelectInput";
 import MyDateInput from "../../../app/common/form/MyDateInput";
 export default observer(function ActivityForm() {
   const { activityStore } = useStore();
-  const {
-    loading,
-    loadActivity,
-    loadingInitial,
-    updateActivity,
-    createActivity,
-  } = activityStore;
+  const { loadActivity, loadingInitial, updateActivity, createActivity } =
+    activityStore;
   const { id } = useParams<{ id: string }>();
   const [activity, setActivity] = useState<ActivityFormValues>(
     new ActivityFormValues()
@@ -43,6 +38,7 @@ export default observer(function ActivityForm() {
   }, [id, loadActivity]);
   const handleFormSubmit = (activity: ActivityFormValues) => {
     if (activity.id) {
+      console.log(activity);
       updateActivity(activity).then(() => navigate(`/activity/${activity.id}`));
     } else {
       activity.id = uuid();
