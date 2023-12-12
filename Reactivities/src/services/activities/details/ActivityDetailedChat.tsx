@@ -1,11 +1,11 @@
 import { observer } from "mobx-react-lite";
-import { Segment, Header, Comment, Button } from "semantic-ui-react";
+import { Segment, Header, Comment, Loader } from "semantic-ui-react";
 import { useStore } from "../../../app/stores/store";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Formik, Form } from "formik";
-import MyTextArea from "../../../app/common/form/MyTextArea";
-
+import { Formik, Form, Field } from "formik";
+import * as Yup from "yup";
+import { formatDistanceToNow } from "date-fns";
 interface Props {
   activityId: string;
 }
@@ -22,6 +22,7 @@ export default observer(function ActivityDetailedChat({ activityId }: Props) {
       commentStore.clearComments();
     };
   }, [commentStore, activityId]);
+
   return (
     <>
       <Segment
@@ -43,9 +44,11 @@ export default observer(function ActivityDetailedChat({ activityId }: Props) {
                   {comment.displayName}
                 </Comment.Author>
                 <Comment.Metadata>
-                  <div>{comment.createdAt.toString()}</div>
+                  <div>{formatDistanceToNow(comment.createdAt)} ago</div>
                 </Comment.Metadata>
-                <Comment.Text>{comment.body}</Comment.Text>
+                <Comment.Text style={{ whiteSpace: "pre" }}>
+                  {comment.body}
+                </Comment.Text>
                 <Comment.Actions>
                   <Comment.Action>Reply</Comment.Action>
                 </Comment.Actions>
@@ -58,20 +61,33 @@ export default observer(function ActivityDetailedChat({ activityId }: Props) {
               commentStore.addComment(values).then(() => resetForm())
             }
             initialValues={{ body: "" }}
+            validationSchema={Yup.object({
+              body: Yup.string().required(),
+            })}
           >
-            {({ isSubmitting, isValid }) => (
+            {({ isSubmitting, isValid, handleSubmit }) => (
               <Form className="ui form">
-                <MyTextArea placeholder="Add Comment" row={2} name="body" />
-                <Button
-                  loading={isSubmitting}
-                  disabled={isSubmitting || !isValid}
-                  content="Add Reply"
-                  labelPosition="left"
-                  icon="edit"
-                  primary
-                  type="submit"
-                  floated="right"
-                />
+                <Field name="body">
+                  {({ field }: any) => (
+                    <div>
+                      <Loader active={isSubmitting} />
+                      <textarea
+                        placeholder="Enter your comment"
+                        rows={2}
+                        {...field}
+                        onKeyDown={(e) => {
+                          if (e.key === "Enter" && e.shiftKey) {
+                            return;
+                          }
+                          if (e.key === "Enter" && !e.shiftKey) {
+                            e.preventDefault();
+                            isValid && handleSubmit();
+                          }
+                        }}
+                      />
+                    </div>
+                  )}
+                </Field>
               </Form>
             )}
           </Formik>

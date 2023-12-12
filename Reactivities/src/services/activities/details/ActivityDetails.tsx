@@ -1,4 +1,4 @@
-import {  Grid } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import { observer } from "mobx-react-lite";
 import { useStore } from "../../../app/stores/store";
 import Loading from "../../../app/layout/Loading";
@@ -15,23 +15,25 @@ export default observer(function ActivityDetails() {
     selectedActivity: activity,
     loadActivity,
     loadingInitial,
+    clearSelectedActivity,
   } = activityStore;
   const { id } = useParams();
 
   useEffect(() => {
     if (id) loadActivity(id);
-  }, [id, loadActivity]);
+    return () => clearSelectedActivity();
+  }, [id, loadActivity, clearSelectedActivity]);
 
   if (loadingInitial || !activity) return <Loading />;
   return (
     <Grid>
       <Grid.Column width={10}>
-        <ActivityDetailedHeader activity={activity}/>
-        <ActivityDetailedInfo activity={activity}/>
-        <ActivityDetailedChat activityId={activity.id}/>
+        <ActivityDetailedHeader activity={activity} />
+        <ActivityDetailedInfo activity={activity} />
+        <ActivityDetailedChat activityId={activity.id} />
       </Grid.Column>
       <Grid.Column width={6}>
-        <ActivityDetailedSidebar activity={activity}/>
+        <ActivityDetailedSidebar activity={activity} />
       </Grid.Column>
     </Grid>
   );
