@@ -60,7 +60,7 @@ export default observer(function ActivityForm() {
         {({ handleSubmit, isValid, isSubmitting, dirty }) => (
           <Form className="ui form" onSubmit={handleSubmit}>
             <MyTextInput name="title" placeholder="title" />
-            <MyTextArea row={3} placeholder="Description" name="description" />
+            <MyTextArea rows={3} placeholder="Description" name="description" />
             <MySelectedInput
               options={categoryOptions}
               placeholder="Category"
