@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+
 using Reactivities.Application.Profiles;
 
 namespace Reactivities.API.Controllers
@@ -13,5 +13,12 @@ namespace Reactivities.API.Controllers
         {
             return HandleResult(await Mediator.Send(new Details.Query { UserName = username }));
         }
+
+        [HttpPut]
+        public async Task<IActionResult> Edit(Edit.Command command)
+        {
+            return HandleResult(await Mediator.Send(command));
+        }
+
     }
 }

@@ -3,11 +3,12 @@
 using AutoMapper;
 using Reactivities.Application.Activities;
 using Reactivities.Application.Comments;
+using Reactivities.Application.Profiles;
 using Reactivities.Domain;
 
 namespace Reactivities.Application.Core
 {
-    public class MappingProfiles : Profile
+    public class MappingProfiles : AutoMapper.Profile
     {
         public MappingProfiles()
         {
@@ -27,7 +28,9 @@ namespace Reactivities.Application.Core
                 .ForMember(d => d.UserName, o => o.MapFrom(s => s.Author.UserName))
                 .ForMember(d => d.Image, o => o.MapFrom(s => s.Author.Photos.FirstOrDefault(x => x.IsMain).ImageUrl));
 
-
+            CreateMap<ActivityAttendee,UserActivityDto>()
+                .ForMember(d => d.Id, o => o.MapFrom(s => s.Activity.Id))
+                .ForMember(d => d.Date, o => o.MapFrom(s => s.Activity.Date))                .ForMember(d => d.Title, o => o.MapFrom(s => s.Activity.Title))                .ForMember(d => d.Category, o => o.MapFrom(s => s.Activity.Category))                .ForMember(d => d.HostUsername, o => o.MapFrom(s => s.Activity.Attendees.FirstOrDefault(x => x.IsHost).AppUser.UserName));
         }
     }
 }
