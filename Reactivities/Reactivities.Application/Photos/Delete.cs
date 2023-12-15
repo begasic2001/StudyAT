@@ -32,7 +32,7 @@ namespace Reactivities.Application.Photos
 
                 if (user == null) return null;
                 var photo = user.Photos.FirstOrDefault(x => x.Id == request.Id);
-                Console.WriteLine(photo);
+       
                 if (photo == null) return null;
                 if (photo.IsMain) return Result<Unit>.Failure("You can not delete your main photo");
 
