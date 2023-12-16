@@ -6,6 +6,11 @@ interface Props {
   attendees: Profile[];
 }
 export default function ActivityListItemAttendee({ attendees }: Props) {
+  const styles = {
+    borderColor: "orange",
+    borderWidth: 2,
+  };
+
   return (
     <List horizontal>
       {attendees.map((a) => (
@@ -18,7 +23,13 @@ export default function ActivityListItemAttendee({ attendees }: Props) {
               as={Link}
               to={`/profiles/${a.userName}`}
             >
-              <Image size="mini" circular src={a.image || "/assets/user.png"} />
+              <Image
+                bordered
+                size="mini"
+                circular
+                src={a.image || "/assets/user.png"}
+                style={a.following ? styles : null}
+              />
             </List.Item>
           }
         >
