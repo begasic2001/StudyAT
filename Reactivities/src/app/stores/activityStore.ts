@@ -4,12 +4,16 @@ import agent from "../api/agent";
 import { format } from "date-fns";
 import { store } from "./store";
 import { Profile } from "../models/profile";
+import { Pagination } from "../models/pagination";
+
 export default class ActivityStore {
   selectedActivity: Activity | undefined = undefined;
   activityRegistry = new Map<string, Activity>();
   editMode = false;
   loading = false;
   loadingInitial = false;
+  // pagination
+  pagination: Pagination | null = null;
   constructor() {
     makeAutoObservable(this);
   }
@@ -33,15 +37,20 @@ export default class ActivityStore {
   loadActivities = async () => {
     this.setLoadingInitial(true);
     try {
-      const activities = await agent.Activities.list();
-      activities.forEach((activity) => {
+      const res = await agent.Activities.list();
+      res.data.forEach((activity) => {
         this.setActivity(activity);
       });
+      this.setPagination(res.pagination);
       this.setLoadingInitial(false);
     } catch (error) {
       console.log(error);
       this.setLoadingInitial(false);
     }
+  };
+
+  setPagination = (pagination: Pagination) => {
+    this.pagination = pagination;
   };
 
   loadActivity = async (id: string) => {
@@ -196,13 +205,15 @@ export default class ActivityStore {
   };
 
   updateAttendeeFollowing = (username: string) => {
-    this.activityRegistry.forEach(activity => {
-        activity.attendees.forEach(attendee => {
-            if (attendee.userName === username) {
-                attendee.following ? attendee.followersCount-- : attendee.followersCount++;
-                attendee.following = !attendee.following;
-            }
-        })
-    })
-}
+    this.activityRegistry.forEach((activity) => {
+      activity.attendees.forEach((attendee) => {
+        if (attendee.userName === username) {
+          attendee.following
+            ? attendee.followersCount--
+            : attendee.followersCount++;
+          attendee.following = !attendee.following;
+        }
+      });
+    });
+  };
 }
