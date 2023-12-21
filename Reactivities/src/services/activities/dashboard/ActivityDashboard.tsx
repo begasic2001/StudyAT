@@ -1,4 +1,4 @@
-import { Button, Grid, GridColumn, Loader } from "semantic-ui-react";
+import {  Grid, GridColumn, Loader } from "semantic-ui-react";
 import ActivityList from "./ActivityList";
 import { useStore } from "../../../app/stores/store";
 import { observer } from "mobx-react-lite";
