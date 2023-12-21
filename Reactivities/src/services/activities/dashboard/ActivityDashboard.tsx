@@ -1,4 +1,4 @@
-import { Button, Grid } from "semantic-ui-react";
+import { Button, Grid, GridColumn, Loader } from "semantic-ui-react";
 import ActivityList from "./ActivityList";
 import { useStore } from "../../../app/stores/store";
 import { observer } from "mobx-react-lite";
@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import Loading from "../../../app/layout/Loading";
 import ActivityFilter from "./ActivityFilter";
 import { PagingParams } from "../../../app/models/pagination";
+import InfiniteScroll from "react-infinite-scroller";
 export default observer(function ActivityDashboard() {
   const { activityStore } = useStore();
   const { loadActivities, activityRegistry, setPagingParams, pagination } =
@@ -28,19 +29,33 @@ export default observer(function ActivityDashboard() {
   return (
     <Grid>
       <Grid.Column width="10">
-        <ActivityList />
-        <Button
+        <InfiniteScroll
+          pageStart={0}
+          loadMore={handleGetNext}
+          hasMore={
+            !loadingNext &&
+            !!pagination &&
+            pagination.currentPage < pagination.totalPages
+          }
+          initialLoad={false}
+        >
+          <ActivityList />
+        </InfiniteScroll>
+        {/* <Button
           floated="right"
           content="More"
           positive
           onClick={handleGetNext}
           loading={loadingNext}
           disabled={pagination?.totalPages === pagination?.currentPage}
-        />
+        /> */}
       </Grid.Column>
       <Grid.Column width="6">
         <ActivityFilter />
       </Grid.Column>
+      <GridColumn width={10}>
+        <Loader active={loadingNext}/>
+      </GridColumn>
     </Grid>
   );
 });
