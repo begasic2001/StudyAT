@@ -16,7 +16,7 @@ namespace Reactivities.API.Controllers
     {
         [Authorize]
         [HttpGet] // api/activities
-        public async Task<IActionResult> GetActivities([FromQuery] PagingParams param)
+        public async Task<IActionResult> GetActivities([FromQuery]ActivityParams param)
         {
             var res = await Mediator.Send(new List.Query{ Params = param});
             return HandlePageResult(res);
