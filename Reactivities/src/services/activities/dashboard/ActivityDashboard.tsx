@@ -1,12 +1,12 @@
-import {  Grid, GridColumn, Loader } from "semantic-ui-react";
+import { Grid, GridColumn, Loader } from "semantic-ui-react";
 import ActivityList from "./ActivityList";
 import { useStore } from "../../../app/stores/store";
 import { observer } from "mobx-react-lite";
 import { useEffect, useState } from "react";
-import Loading from "../../../app/layout/Loading";
 import ActivityFilter from "./ActivityFilter";
 import { PagingParams } from "../../../app/models/pagination";
 import InfiniteScroll from "react-infinite-scroller";
+import ActivityListItemPlaceholder from "./ActivityListItemPlaceholder";
 export default observer(function ActivityDashboard() {
   const { activityStore } = useStore();
   const { loadActivities, activityRegistry, setPagingParams, pagination } =
@@ -24,23 +24,33 @@ export default observer(function ActivityDashboard() {
     if (activityRegistry.size <= 1) loadActivities();
   }, [loadActivities]);
 
-  if (activityStore.loadingInitial && !loadingNext)
-    return <Loading content="Loading Activity..." />;
+  // if (activityStore.loadingInitial && !loadingNext)
+  //   return <Loading content="Loading Activity..." />;
   return (
     <Grid>
       <Grid.Column width="10">
-        <InfiniteScroll
-          pageStart={0}
-          loadMore={handleGetNext}
-          hasMore={
-            !loadingNext &&
-            !!pagination &&
-            pagination.currentPage < pagination.totalPages
-          }
-          initialLoad={false}
-        >
-          <ActivityList />
-        </InfiniteScroll>
+        {activityStore.loadingInitial &&
+        activityStore.activityRegistry.size === 0 &&
+        !loadingNext ? (
+          <>
+            <ActivityListItemPlaceholder />
+            <ActivityListItemPlaceholder />
+          </>
+        ) : (
+          <InfiniteScroll
+            pageStart={0}
+            loadMore={handleGetNext}
+            hasMore={
+              !loadingNext &&
+              !!pagination &&
+              pagination.currentPage < pagination.totalPages
+            }
+            initialLoad={false}
+          >
+            <ActivityList />
+          </InfiniteScroll>
+        )}
+
         {/* <Button
           floated="right"
           content="More"
@@ -54,7 +64,7 @@ export default observer(function ActivityDashboard() {
         <ActivityFilter />
       </Grid.Column>
       <GridColumn width={10}>
-        <Loader active={loadingNext}/>
+        <Loader active={loadingNext} />
       </GridColumn>
     </Grid>
   );
