@@ -1,6 +1,6 @@
 import { Container } from "semantic-ui-react";
 import Navbar from "./Navbar";
-import { Outlet } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 import { observer } from "mobx-react-lite";
 import { useLocation } from "react-router-dom";
 import HomePage from "../../services/home/HomePage";
@@ -22,14 +22,15 @@ function App() {
   if (!commonStore.appLoaded) return <Loading content="Loading App....." />;
   return (
     <>
-      <ModalContainer/>
+      <ScrollRestoration />
+      <ModalContainer />
       <ToastContainer position="bottom-right" hideProgressBar theme="colored" />
       {location.pathname === "/" ? (
         <HomePage />
       ) : (
         <>
           <Navbar />
-          <Container style={{ marginTop: "7em" }} >
+          <Container style={{ marginTop: "7em" }}>
             <Outlet />
           </Container>
         </>
