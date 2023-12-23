@@ -1,0 +1,141 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\brand-icons-42e369dc.ttf",
+      "PackagePath": "staticwebassets\\assets\\brand-icons-42e369dc.ttf"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\brand-icons-6519a15b.svg",
+      "PackagePath": "staticwebassets\\assets\\brand-icons-6519a15b.svg"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\brand-icons-9fafd6c3.woff",
+      "PackagePath": "staticwebassets\\assets\\brand-icons-9fafd6c3.woff"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\brand-icons-d023c55f.eot",
+      "PackagePath": "staticwebassets\\assets\\brand-icons-d023c55f.eot"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\brand-icons-e7d4d534.woff2",
+      "PackagePath": "staticwebassets\\assets\\brand-icons-e7d4d534.woff2"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\categoryImages\\culture.jpg",
+      "PackagePath": "staticwebassets\\assets\\categoryImages\\culture.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\categoryImages\\drinks.jpg",
+      "PackagePath": "staticwebassets\\assets\\categoryImages\\drinks.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\categoryImages\\film.jpg",
+      "PackagePath": "staticwebassets\\assets\\categoryImages\\film.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\categoryImages\\food.jpg",
+      "PackagePath": "staticwebassets\\assets\\categoryImages\\food.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\categoryImages\\music.jpg",
+      "PackagePath": "staticwebassets\\assets\\categoryImages\\music.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\categoryImages\\travel.jpg",
+      "PackagePath": "staticwebassets\\assets\\categoryImages\\travel.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\flags-94d5c7f1.png",
+      "PackagePath": "staticwebassets\\assets\\flags-94d5c7f1.png"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\icons-282a64fb.svg",
+      "PackagePath": "staticwebassets\\assets\\icons-282a64fb.svg"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\icons-434466b5.woff2",
+      "PackagePath": "staticwebassets\\assets\\icons-434466b5.woff2"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\icons-8b4e1b84.eot",
+      "PackagePath": "staticwebassets\\assets\\icons-8b4e1b84.eot"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\icons-95b6a484.woff",
+      "PackagePath": "staticwebassets\\assets\\icons-95b6a484.woff"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\icons-cb7f81f5.ttf",
+      "PackagePath": "staticwebassets\\assets\\icons-cb7f81f5.ttf"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\index-00b4ef71.css",
+      "PackagePath": "staticwebassets\\assets\\index-00b4ef71.css"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\index-b4160f7c.js",
+      "PackagePath": "staticwebassets\\assets\\index-b4160f7c.js"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\index-dc32ca26.js",
+      "PackagePath": "staticwebassets\\assets\\index-dc32ca26.js"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\logo.png"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\outline-icons-4537fa06.eot",
+      "PackagePath": "staticwebassets\\assets\\outline-icons-4537fa06.eot"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\outline-icons-4bc359c2.woff",
+      "PackagePath": "staticwebassets\\assets\\outline-icons-4bc359c2.woff"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\outline-icons-4d288344.woff2",
+      "PackagePath": "staticwebassets\\assets\\outline-icons-4d288344.woff2"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\outline-icons-67172172.ttf",
+      "PackagePath": "staticwebassets\\assets\\outline-icons-67172172.ttf"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\outline-icons-ae8fd02a.svg",
+      "PackagePath": "staticwebassets\\assets\\outline-icons-ae8fd02a.svg"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\placeholder.png",
+      "PackagePath": "staticwebassets\\assets\\placeholder.png"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\assets\\user.png",
+      "PackagePath": "staticwebassets\\assets\\user.png"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\wwwroot\\vite.svg",
+      "PackagePath": "staticwebassets\\vite.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Reactivities.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Reactivities.API.props",
+      "PackagePath": "build\\Reactivities.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Reactivities.API.props",
+      "PackagePath": "buildMultiTargeting\\Reactivities.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Reactivities.API.props",
+      "PackagePath": "buildTransitive\\Reactivities.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
