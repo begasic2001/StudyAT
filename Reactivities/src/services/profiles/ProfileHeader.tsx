@@ -1,11 +1,9 @@
 import { observer } from "mobx-react-lite";
 import {
-  Button,
   Divider,
   Grid,
   Header,
   Item,
-  Reveal,
   Segment,
   Statistic,
 } from "semantic-ui-react";
@@ -38,7 +36,7 @@ export default observer(function ProfileHeader({ profile }: Props) {
             <Statistic label="Following" value={profile.followingCount} />
           </Statistic.Group>
           <Divider />
-          <FollowButton profile={profile}/>
+          <FollowButton profile={profile} />
         </Grid.Column>
       </Grid>
     </Segment>

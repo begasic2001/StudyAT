@@ -17,7 +17,7 @@ export default function MySelectedInput(props: Props) {
         clearable
         options={props.options}
         value={field.value || null}
-        onChange={(e, d) => helpers.setValue(d.value)}
+        onChange={(_, d) => helpers.setValue(d.value)}
         onBlur={() => helpers.setTouched(true)}
         placeholder={props.placeholder}
       />
