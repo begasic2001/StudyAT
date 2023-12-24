@@ -11,7 +11,11 @@ export default observer(function HomePage() {
       <div>Home Page</div>
       {userStore.isLoggedIn ? (
         <>
-          <Header as="h2" inverted content="welcome to activity forum" />
+          <Header
+            as="h2"
+            inverted
+            content={`welcome back ${userStore.user?.userName}`}
+          />
           <Button as={Link} to={"/activity"} content="Go To Activity"></Button>
         </>
       ) : (
