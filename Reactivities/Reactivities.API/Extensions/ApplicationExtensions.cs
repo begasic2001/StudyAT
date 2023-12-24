@@ -19,7 +19,8 @@ namespace Reactivities.API.Extensions
                 services.AddSwaggerGen();
                 services.AddDbContext<ReactivitiesContext>(option =>
                 {
-                    option.UseSqlServer(configuration.GetConnectionString("DefaultString"));
+                    option.UseNpgsql(configuration.GetConnectionString("DefaultString"));
+                    //option.UseSqlServer(configuration.GetConnectionString("DefaultString"));
                 });
                 services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(List.Handler).Assembly));
                 services.AddCors(opt =>
