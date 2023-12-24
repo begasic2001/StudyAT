@@ -1,19 +1,13 @@
 version: "3.3"
 
 services:
-  mssql:
-    container_name: sql-server
-    image: mcr.microsoft.com/mssql/server:2019-latest
-    restart: always
-    environment:
-      ACCEPT_EULA: "Y"
-      SA_PASSWORD: "Monkeydluffy@123"
-    ports:
-      - 1433:1433
-    volumes:
-      - my-volume-mssql:/var/opt/mssql
-  postgres_blog:
-    container_name: postgres_blog
+  reactivities.api:
+    image: ${DOCKER_REGISTRY-}reactivitiesapi
+    build:
+      context: .
+      dockerfile: Reactivities.API/Dockerfile
+  postgres:
+    container_name: postgres
     image: postgres
     restart: always
     environment:
@@ -30,5 +24,4 @@ networks:
   postgres:
     driver: bridge
 volumes:
-  my-volume-mssql:
   postgres:

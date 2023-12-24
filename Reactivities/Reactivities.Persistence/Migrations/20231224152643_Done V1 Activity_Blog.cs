@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Reactivities.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class SwitchtoPostgre : Migration
+    public partial class DoneV1Activity_Blog : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fCu2MaulgEPM4Ij33Drpg7bpkCotzCRK4B2f3a4imwQudDofyFiSnjuhfNqTWGdht6MJNw4P/fjBVpcTNu/srQ==",
+  "dgSpecHash": "QW814GJKDFE1D6CMon+RxoWQcGtwuXSHFySiDhM6WMLmeG8vBUHNkt1uYLd4VCJ/p3pk9NpR/INdcPHXciJBnA==",
   "success": true,
-  "projectFilePath": "c:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.Persistence\\Reactivities.Persistence.csproj",
+  "projectFilePath": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.Persistence\\Reactivities.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

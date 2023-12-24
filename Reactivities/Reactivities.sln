@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reactivities.Domain", "Reac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reactivities.Persistence", "Reactivities.Persistence\Reactivities.Persistence.csproj", "{A537443A-EAAD-48BC-BD13-0D091390077A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactivities.Infrastructure", "Reactivities.Infrastructure\Reactivities.Infrastructure.csproj", "{F3DF1CC8-311D-436B-8F49-E7ABF35B9F8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reactivities.Infrastructure", "Reactivities.Infrastructure\Reactivities.Infrastructure.csproj", "{F3DF1CC8-311D-436B-8F49-E7ABF35B9F8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -12,8 +12,8 @@ using Reactivities.Persistence;
 namespace Reactivities.Persistence.Migrations
 {
     [DbContext(typeof(ReactivitiesContext))]
-    [Migration("20231224053140_Switch to Postgre")]
-    partial class SwitchtoPostgre
+    [Migration("20231224152643_Done V1 Activity_Blog")]
+    partial class DoneV1Activity_Blog
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
