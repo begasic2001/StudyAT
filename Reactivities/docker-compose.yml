@@ -1,11 +1,6 @@
 version: "3.3"
 
 services:
-  reactivities.api:
-    image: ${DOCKER_REGISTRY-}reactivitiesapi
-    build:
-      context: .
-      dockerfile: Reactivities.API/Dockerfile
   postgres:
     container_name: postgres
     image: postgres
