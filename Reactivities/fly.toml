@@ -1,0 +1,28 @@
+# fly.toml app configuration file generated for activity-blog on 2023-12-25T22:17:13+07:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "activity-blog"
+primary_region = "hkg"
+
+[build]
+  image = "begasic2001/activity_blog:v2"
+
+[env]
+  ASPNETCORE_URLS="http://+:9090"
+  Cloudinary__CloudName="dlypxr5cd"
+  Cloudinary__ApiKey="967947526596887"
+
+[http_service]
+  internal_port = 9090
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 1024

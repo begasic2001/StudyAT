@@ -1,5 +1,6 @@
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /app
+EXPOSE 9090
 
 # copy .csproj and restore as distinct layers
 COPY ["Reactivities.sln", "Reactivities.sln"]
