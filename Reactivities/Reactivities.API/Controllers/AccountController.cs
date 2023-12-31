@@ -17,11 +17,18 @@ namespace Reactivities.API.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly TokenService _tokenService;
+        private readonly IConfiguration _configuration;
+        private readonly HttpClient _httpClient;
 
-        public AccountController(UserManager<AppUser> userManager, TokenService tokenService)
+        public AccountController(UserManager<AppUser> userManager, TokenService tokenService,IConfiguration configuration)
         {
             _userManager = userManager;
             _tokenService = tokenService;
+            _configuration = configuration;
+            _httpClient = new HttpClient
+            {
+                BaseAddress = new System.Uri("https://graph.facebook.com/")
+            };
         }
         [AllowAnonymous]
         [HttpPost("login")]
@@ -78,7 +85,50 @@ namespace Reactivities.API.Controllers
                 .FirstOrDefaultAsync(x => x.Email == User.FindFirstValue(ClaimTypes.Email));
             return CreateUserObject(user);
         }
+        [AllowAnonymous]
+        [HttpPost("fbLogin")]
+        public async Task<ActionResult<UserDto>> Facebook(string accessToken)
+        {
+            var fbVerifyKeys = _configuration["Facebook:AppId"] + "|" + _configuration["Facebook:ApiSecret"];
+            var verifyTokenResponse = await _httpClient
+                .GetAsync($"debug_token?input_token={accessToken}&access_token={fbVerifyKeys}");
+            if (!verifyTokenResponse.IsSuccessStatusCode) return Unauthorized();
 
+            var fbUrl = $"me?access_token={accessToken}&fields=name,email,picture.width(100).height(100)";
+            
+            var fbInfo = await _httpClient.GetFromJsonAsync<FacebookDto>(fbUrl);
+            // get picture
+            var fbId = fbInfo.Id;
+            var fbUrlPicture = $"https://graph.facebook.com/{fbId}/picture?type=large";
+            // end get picture
+            var user = await _userManager.Users.Include(p => p.Photos)
+                .FirstOrDefaultAsync(x => x.Email == fbInfo.Email);
+
+            if (user != null) return CreateUserObject(user);
+            Console.WriteLine("Name",fbInfo.Name);
+            Console.WriteLine("Email", fbInfo.Email);
+            Console.WriteLine("Id", fbInfo.Id);
+
+            user = new AppUser
+            {
+                DisplayName = fbInfo.Name,
+                Email = fbInfo.Email,
+                UserName = fbInfo.Email,
+                Photos = new List<Photo>
+                {
+                    new Photo
+                    {
+                        Id="fb_" + fbInfo.Id,
+                        ImageUrl = /*fbInfo.Picture.Data.Url*/fbUrlPicture,
+                        IsMain = true,
+                    }
+                }
+            };
+
+            var result = await _userManager.CreateAsync(user);
+            if (!result.Succeeded) return BadRequest("Problem create user account");
+            return CreateUserObject(user);
+        }
 
         private ActionResult<UserDto> CreateUserObject(AppUser user)
         {

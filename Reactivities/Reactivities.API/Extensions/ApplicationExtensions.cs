@@ -28,7 +28,7 @@ namespace Reactivities.API.Extensions
                     if (env == "Development")
                     {
                         // Use connection string from file.
-                        connStr = configuration.GetConnectionString("DefaultConnection");
+                        connStr = configuration.GetConnectionString("DefaultString");
                     }
                     else
                     {
@@ -65,7 +65,7 @@ namespace Reactivities.API.Extensions
                                    .AllowAnyMethod()
                                    .AllowAnyHeader()
                                    .AllowCredentials()
-                                   .WithOrigins("http://localhost:5173");
+                                   .WithOrigins("https://localhost:3000");
 
                     });
                 });
