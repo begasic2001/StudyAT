@@ -37,6 +37,7 @@ namespace Reactivities.Application.Photos
                 var photoUploadResult = await _photoAccessor.AddPhoto(request.File);
                 var photo = new Photo
                 {
+ 
                     Id = photoUploadResult.PublicId,
                     ImageUrl = photoUploadResult.ImageUrl
                 };
