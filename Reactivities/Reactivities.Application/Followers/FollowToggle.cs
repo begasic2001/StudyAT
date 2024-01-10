@@ -31,8 +31,9 @@ namespace Reactivities.Application.Followers
             }
             public async Task<Result<Unit>> Handle(Command request, CancellationToken cancellationToken)
             {
+                // current user 
                 var observer = await _context.Users.FirstOrDefaultAsync(x => x.UserName == _userAccessor.GetUserName());
-
+                // user has been target follow from current user
                 var target = await _context.Users.FirstOrDefaultAsync(x => x.UserName == request.TargetUsername);
 
                 if (target == null) return null;

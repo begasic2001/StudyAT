@@ -334,6 +334,34 @@ namespace Reactivities.Persistence.Migrations
                     b.ToTable("Photos");
                 });
 
+            modelBuilder.Entity("Reactivities.Domain.RefreshToken", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("Expires")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("Revoked")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("RefreshToken");
+                });
+
             modelBuilder.Entity("Reactivities.Domain.UserFollowing", b =>
                 {
                     b.Property<string>("ObserverId")
@@ -443,6 +471,15 @@ namespace Reactivities.Persistence.Migrations
                         .HasForeignKey("AppUserId");
                 });
 
+            modelBuilder.Entity("Reactivities.Domain.RefreshToken", b =>
+                {
+                    b.HasOne("Reactivities.Domain.AppUser", "AppUser")
+                        .WithMany("RefreshTokens")
+                        .HasForeignKey("AppUserId");
+
+                    b.Navigation("AppUser");
+                });
+
             modelBuilder.Entity("Reactivities.Domain.UserFollowing", b =>
                 {
                     b.HasOne("Reactivities.Domain.AppUser", "Observer")
@@ -476,6 +513,8 @@ namespace Reactivities.Persistence.Migrations
                     b.Navigation("Followings");
 
                     b.Navigation("Photos");
+
+                    b.Navigation("RefreshTokens");
                 });
 #pragma warning restore 612, 618
         }
