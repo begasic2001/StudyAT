@@ -3,7 +3,6 @@ import App from "../layout/App";
 import ActivityDashboard from "../../services/activities/dashboard/ActivityDashboard";
 import ActivityForm from "../../services/activities/form/ActivityForm";
 import ActivityDetails from "../../services/activities/details/ActivityDetails";
-import TestErrors from "../../services/errors/TestError";
 import NotFound from "../../services/errors/NotFound";
 import ServerError from "../../services/errors/ServerError";
 import LoginForm from "../../services/users/form/LoginForm";
@@ -42,10 +41,6 @@ export const routes: RouteObject[] = [
           {
             path: "login",
             element: <LoginForm />,
-          },
-          {
-            path: "errors",
-            element: <TestErrors />,
           },
         ],
       },
