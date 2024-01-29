@@ -12,15 +12,27 @@ services:
       - POSTGRES_DB=Catalog
     volumes:
       - postgres_data:/var/lib/postgresql/data
+  cartdb:
+    container_name: cartdb
+    restart: always
+    ports:
+      - "6379:6379"
 
   catalog.api:
     container_name: catalog.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80
       - "ConnectionStrings:DefaultString=Server=host.docker.internal;Port=5432; User Id=admin; Password=Monkeydluffy@123; Database=Catalog"
     ports:
       - "9093:80"
-    volumes:
-      - ${APPDATA}/Microsoft/UserSecrets/:/root/.microsoft/usersecrets
-      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https/
+       
+  cart.api:
+    container_name: cart.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "CacheSettings:ConnectionString=cartdb:6379"
+    depends_on:
+      - cartdb
+    ports:
+      - "9094:80"
+    

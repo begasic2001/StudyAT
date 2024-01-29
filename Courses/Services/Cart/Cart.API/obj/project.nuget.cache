@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mefbjUvtG+ykDkdU8Kbl8LB6S5tOk3ImXOCENf5pdVG25XFvAUMyEe5CiakihTMj2zMGNZOfwPXTjFRo5Imvrw==",
+  "dgSpecHash": "TePPEeYAc808G2RU/IhklliEGm0bx4XMORJ/qdF26I34Nt8iZDpfCr4ZhtarniTNDxBeEuFZMNF1w0+sYOBLPA==",
   "success": true,
   "projectFilePath": "C:\\workspace\\StudyAT\\StudyAT_BE_Courses\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.options\\8.0.1\\microsoft.extensions.options.8.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\stackexchange.redis\\2.6.122\\stackexchange.redis.2.6.122.nupkg.sha512",
