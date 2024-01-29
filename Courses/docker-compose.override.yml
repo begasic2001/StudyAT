@@ -1,0 +1,26 @@
+version: "3.4"
+
+services:
+  catalogdb:
+    container_name: catalogdb
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=Monkeydluffy@123
+      - POSTGRES_DB=Catalog
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  catalog.api:
+    container_name: catalog.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - "ConnectionStrings:DefaultString=Server=host.docker.internal;Port=5432; User Id=admin; Password=Monkeydluffy@123; Database=Catalog"
+    ports:
+      - "9093:80"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets/:/root/.microsoft/usersecrets
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https/

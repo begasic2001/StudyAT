@@ -7,11 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{82
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{AC9E93A6-0FC5-411C-9921-C671F5786CD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auction", "Auction", "{D860291E-5F53-4589-990E-CB4A755BD1C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auction.API", "Services\Auction\Auction.API\Auction.API.csproj", "{0EAA48F2-06C3-4963-9C29-734C1B34F41D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auction.API", "Services\Auction\Auction.API\Auction.API.csproj", "{0EAA48F2-06C3-4963-9C29-734C1B34F41D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{476B1417-02C1-4AE1-A60F-9D6499FCFE98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0EAA48F2-06C3-4963-9C29-734C1B34F41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EAA48F2-06C3-4963-9C29-734C1B34F41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EAA48F2-06C3-4963-9C29-734C1B34F41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{476B1417-02C1-4AE1-A60F-9D6499FCFE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476B1417-02C1-4AE1-A60F-9D6499FCFE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476B1417-02C1-4AE1-A60F-9D6499FCFE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476B1417-02C1-4AE1-A60F-9D6499FCFE98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

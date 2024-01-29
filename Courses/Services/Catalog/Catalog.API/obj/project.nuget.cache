@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FvmlPKBP//vwiFiXWsVrtx9PFikhRU8Q3GUuV/nAjubIaER75POL42eUCoKZ0/h7Dk0g6ExMeW2DtcFAX1QcbQ==",
+  "dgSpecHash": "nyO79aBf+rtzcuKFYsMCFWO2kBB1widXrh8VSzWv+edGe4cYBUFr6jU+n7gNe0MyMbAUqvcUBqdErJezfFGOcA==",
   "success": true,
   "projectFilePath": "C:\\workspace\\StudyAT\\StudyAT_BE_Courses\\Courses\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\npgsql\\7.0.6\\npgsql.7.0.6.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.11\\npgsql.entityframeworkcore.postgresql.7.0.11.nupkg.sha512",

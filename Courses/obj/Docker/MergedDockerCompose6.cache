@@ -1,0 +1,56 @@
+name: dockercompose4890134073306514288
+services:
+  catalog.api:
+    build:
+      context: C:\workspace\StudyAT\StudyAT_BE_Courses\Courses
+      dockerfile: Services/Catalog/Catalog.API/Dockerfile
+    container_name: catalog.api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionStrings:DefaultString: Server=host.docker.internal;Port=5432; User Id=admin; Password=Monkeydluffy@123; Database=Catalog
+    image: catalogapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "9093"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\ASUS\AppData\Roaming/Microsoft/UserSecrets/
+        target: /root/.microsoft/usersecrets
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\ASUS\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        bind:
+          create_host_path: true
+  catalogdb:
+    container_name: catalogdb
+    environment:
+      POSTGRES_DB: Catalog
+      POSTGRES_PASSWORD: Monkeydluffy@123
+      POSTGRES_USER: admin
+    image: postgres
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: postgres_data
+        target: /var/lib/postgresql/data
+        volume: {}
+networks:
+  default:
+    name: dockercompose4890134073306514288_default
+volumes:
+  postgres_data:
+    name: dockercompose4890134073306514288_postgres_data
