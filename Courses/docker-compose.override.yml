@@ -9,7 +9,6 @@ services:
     environment:
       - POSTGRES_USER=admin
       - POSTGRES_PASSWORD=Monkeydluffy@123
-      - POSTGRES_DB=Catalog
     volumes:
       - postgres_data:/var/lib/postgresql/data
   cartdb:
@@ -17,6 +16,7 @@ services:
     restart: always
     ports:
       - "6379:6379"
+ 
 
   catalog.api:
     container_name: catalog.api
@@ -35,4 +35,12 @@ services:
       - cartdb
     ports:
       - "9094:80"
-    
+
+  discount.api:
+    container_name: discount.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:DefaultString=Server=host.docker.internal;Port=5432; User Id=admin; Password=Monkeydluffy@123; Database=Discount"
+    ports:
+      - "9095:80"
+

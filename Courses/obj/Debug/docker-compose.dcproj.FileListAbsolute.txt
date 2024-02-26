@@ -32,3 +32,8 @@ C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\bin\Debug\StackExchange.Redis.dl
 C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\bin\Debug\Microsoft.Extensions.Options.dll
 C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\bin\Debug\Pipelines.Sockets.Unofficial.dll
 C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\bin\Debug\Cart.API.pdb
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\bin\Debug\Discount.API.deps.json
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\bin\Debug\Discount.API.runtimeconfig.json
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\bin\Debug\Discount.API.exe
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\bin\Debug\Discount.API.dll
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\bin\Debug\Discount.API.pdb

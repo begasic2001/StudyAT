@@ -19,7 +19,15 @@ services:
       context: .
       dockerfile: Services/Cart/Cart.API/Dockerfile
 
+  discount.api:
+    image: ${DOCKER_REGISTRY-}discountapi
+    build:
+      context: .
+      dockerfile: Services/Discount/Discount.API/Dockerfile
+
 volumes:
   postgres_data:
+
+
 
 

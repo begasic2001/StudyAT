@@ -5,7 +5,8 @@
       "commandVersion": "1.0",
       "serviceActions": {
         "catalog.api": "StartDebugging",
-        "cart.api": "StartDebugging"
+        "cart.api": "StartDebugging",
+        "discount.api": "StartDebugging"
       }
     }
   }
