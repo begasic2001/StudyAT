@@ -31,3 +31,13 @@ C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\o
 C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\obj\Debug\net7.0\Discount.API.pdb
 C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\obj\Debug\net7.0\Discount.API.genruntimeconfig.cache
 C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\obj\Debug\net7.0\ref\Discount.API.dll
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\bin\Debug\net7.0\Npgsql.dll
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\bin\Debug\net7.0\Humanizer.dll
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API\bin\Debug\net7.0\System.CodeDom.dll

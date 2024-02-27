@@ -43,4 +43,6 @@ services:
       - "ConnectionStrings:DefaultString=Server=host.docker.internal;Port=5432; User Id=admin; Password=Monkeydluffy@123; Database=Discount"
     ports:
       - "9095:80"
+    depends_on: 
+      - catalogdb
 
