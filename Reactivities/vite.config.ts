@@ -4,7 +4,8 @@ import mkcert from "vite-plugin-mkcert";
 // https://vitejs.dev/config/
 export default defineConfig({
   build: {
-    outDir: "../../StudyAT_BE/src/Reactivities/Reactivities.API/wwwroot",
+    outDir:
+      "../../../StudyAT_ServiceReactivities/Reactivities/Reactivities.API/wwwroot",
   },
   server: {
     port: 3000,
