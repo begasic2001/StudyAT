@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xZB1JrTDt9pA685CITCUJx0qmN22V55Z8Dbj7dvzUWC/M17mlbC6jcK1caFmUjQ/qKSx4hwXOpdt/X66/AY4Rw==",
+  "dgSpecHash": "gI04OpbkFw13S573E4HcdDICnCLT9wrtgKluHfWCBnlmS5siFnFIMUB/e/xxf8FDIdPjq8KUWPtSg6aMPvyOVw==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.Infrastructure\\Reactivities.Infrastructure.csproj",
+  "projectFilePath": "C:\\workspace\\StudyAT\\StudyAT_ServiceReactivities\\Reactivities\\Reactivities.Infrastructure\\Reactivities.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

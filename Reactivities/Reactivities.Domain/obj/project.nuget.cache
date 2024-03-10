@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YdjzKsLYid+Y1ULPf8UsMvdiTSAhWp+/jPaZa6a0Vte1+Kn9IqZVJD4OoBwtRlIsSh5c3bqO2GWG8OlL2DDYIQ==",
+  "dgSpecHash": "eWgUQiPzAqNMAO8ELzEgH9EDuh+7SU2GK1A8rfxGncp9n9f2zPJF+3ZmcFrUAIvlWUUVQ8LrIH3uik+aWzNP8Q==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.Domain\\Reactivities.Domain.csproj",
+  "projectFilePath": "C:\\workspace\\StudyAT\\StudyAT_ServiceReactivities\\Reactivities\\Reactivities.Domain\\Reactivities.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.11\\microsoft.aspnetcore.cryptography.internal.7.0.11.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.11\\microsoft.aspnetcore.cryptography.keyderivation.7.0.11.nupkg.sha512",

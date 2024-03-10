@@ -6704,24 +6704,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\Reactivities.API.csproj",
+      "projectUniqueName": "C:\\workspace\\StudyAT\\StudyAT_ServiceReactivities\\Reactivities\\Reactivities.API\\Reactivities.API.csproj",
       "projectName": "Reactivities.API",
-      "projectPath": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\Reactivities.API.csproj",
+      "projectPath": "C:\\workspace\\StudyAT\\StudyAT_ServiceReactivities\\Reactivities\\Reactivities.API\\Reactivities.API.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.API\\obj\\",
+      "outputPath": "C:\\workspace\\StudyAT\\StudyAT_ServiceReactivities\\Reactivities\\Reactivities.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6735,11 +6730,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.Application\\Reactivities.Application.csproj": {
-              "projectPath": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.Application\\Reactivities.Application.csproj"
+            "C:\\workspace\\StudyAT\\StudyAT_ServiceReactivities\\Reactivities\\Reactivities.Application\\Reactivities.Application.csproj": {
+              "projectPath": "C:\\workspace\\StudyAT\\StudyAT_ServiceReactivities\\Reactivities\\Reactivities.Application\\Reactivities.Application.csproj"
             },
-            "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.Infrastructure\\Reactivities.Infrastructure.csproj": {
-              "projectPath": "C:\\workspace\\StudyAT\\StudyAT_BE\\src\\Reactivities\\Reactivities.Infrastructure\\Reactivities.Infrastructure.csproj"
+            "C:\\workspace\\StudyAT\\StudyAT_ServiceReactivities\\Reactivities\\Reactivities.Infrastructure\\Reactivities.Infrastructure.csproj": {
+              "projectPath": "C:\\workspace\\StudyAT\\StudyAT_ServiceReactivities\\Reactivities\\Reactivities.Infrastructure\\Reactivities.Infrastructure.csproj"
             }
           }
         }
@@ -6748,6 +6743,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -6812,8 +6812,30 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

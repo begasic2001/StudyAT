@@ -15,6 +15,7 @@ namespace Reactivities.API.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
+        
         private readonly UserManager<AppUser> _userManager;
         private readonly TokenService _tokenService;
         private readonly IConfiguration _configuration;
