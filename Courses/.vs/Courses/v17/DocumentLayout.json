@@ -1,0 +1,513 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|c:\\workspace\\studyat\\studyat\\courses\\services\\cart\\cart.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|solutionrelative:services\\cart\\cart.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|c:\\workspace\\studyat\\studyat\\courses\\services\\cart\\cart.api\\cart.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|solutionrelative:services\\cart\\cart.api\\cart.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|c:\\workspace\\studyat\\studyat\\courses\\services\\cart\\cart.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|solutionrelative:services\\cart\\cart.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\catalog\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\cart\\cart.api\\extensions\\addapplicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|solutionrelative:services\\cart\\cart.api\\extensions\\addapplicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|c:\\workspace\\studyat\\studyat\\courses\\services\\cart\\cart.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|solutionrelative:services\\cart\\cart.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\cart\\cart.api\\entities\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|solutionrelative:services\\cart\\cart.api\\entities\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|c:\\workspace\\studyat\\studyat\\courses\\services\\cart\\cart.api\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|solutionrelative:services\\cart\\cart.api\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|c:\\workspace\\studyat\\studyat\\courses\\services\\cart\\cart.api\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|solutionrelative:services\\cart\\cart.api\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476B1417-02C1-4AE1-A60F-9D6499FCFE98}|docker-compose.dcproj|c:\\workspace\\studyat\\studyat\\courses\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{476B1417-02C1-4AE1-A60F-9D6499FCFE98}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476B1417-02C1-4AE1-A60F-9D6499FCFE98}|docker-compose.dcproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{476B1417-02C1-4AE1-A60F-9D6499FCFE98}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\discount\\discount.api\\migrations\\20240227064735_add coupon entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\migrations\\20240227064735_add coupon entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\discount\\discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\discount\\discount.api\\data\\discountcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\data\\discountcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\catalog\\catalog.api\\data\\catalogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\data\\catalogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\catalog\\catalog.api\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\catalog\\catalog.api\\extensions\\addapplicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\extensions\\addapplicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\discount\\discount.api\\entities\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\entities\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\discount\\discount.api\\extensions\\applicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\extensions\\applicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\discount\\discount.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\discount\\discount.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\cart\\cart.api\\entities\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{498C70E8-9B1C-4FDC-85F6-A2D684BF8283}|Services\\Cart\\Cart.API\\Cart.API.csproj|solutionrelative:services\\cart\\cart.api\\entities\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\discount\\discount.api\\discount.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\discount.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476B1417-02C1-4AE1-A60F-9D6499FCFE98}|docker-compose.dcproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{476B1417-02C1-4AE1-A60F-9D6499FCFE98}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\catalog\\catalog.api\\repositories\\productrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\repositories\\productrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\catalog\\catalog.api\\catalog.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\catalog.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\discount\\discount.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{538168D5-C95B-4DC6-A562-03FA315DDCA8}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\services\\catalog\\catalog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F3B5484D-891C-42AC-8B02-4C7EB0DE621A}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476B1417-02C1-4AE1-A60F-9D6499FCFE98}|docker-compose.dcproj|C:\\workspace\\StudyAT\\StudyAT\\Courses\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{476B1417-02C1-4AE1-A60F-9D6499FCFE98}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Cart\\Cart.API\\appsettings.json",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\appsettings.json",
+              "RelativeToolTip": "Services\\Cart\\Cart.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-27T15:38:14.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Cart\\Cart.API\\Program.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Program.cs",
+              "RelativeToolTip": "Services\\Cart\\Cart.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:19:17.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddApplicationServices.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Extensions\\AddApplicationServices.cs",
+              "RelativeDocumentMoniker": "Services\\Cart\\Cart.API\\Extensions\\AddApplicationServices.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Extensions\\AddApplicationServices.cs",
+              "RelativeToolTip": "Services\\Cart\\Cart.API\\Extensions\\AddApplicationServices.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Program.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\Program.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cart.API",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj",
+              "RelativeDocumentMoniker": "Services\\Cart\\Cart.API\\Cart.API.csproj",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj",
+              "RelativeToolTip": "Services\\Cart\\Cart.API\\Cart.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-27T15:23:47.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Services\\Cart\\Cart.API\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Services\\Cart\\Cart.API\\Controllers\\CartController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwBsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:18:36.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Entities\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "Services\\Cart\\Cart.API\\Entities\\ShoppingCart.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Entities\\ShoppingCart.cs",
+              "RelativeToolTip": "Services\\Cart\\Cart.API\\Entities\\ShoppingCart.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Repositories\\CartRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Cart\\Cart.API\\Repositories\\CartRepository.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Repositories\\CartRepository.cs",
+              "RelativeToolTip": "Services\\Cart\\Cart.API\\Repositories\\CartRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Repositories\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Cart\\Cart.API\\Repositories\\ICartRepository.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Repositories\\ICartRepository.cs",
+              "RelativeToolTip": "Services\\Cart\\Cart.API\\Repositories\\ICartRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:21:31.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-10T08:56:41.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240227064735_Add Coupon Entity.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Migrations\\20240227064735_Add Coupon Entity.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Migrations\\20240227064735_Add Coupon Entity.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Migrations\\20240227064735_Add Coupon Entity.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\Migrations\\20240227064735_Add Coupon Entity.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Entities\\Product.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\Entities\\Product.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Entities\\Product.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\appsettings.json",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\appsettings.json",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-10T08:56:14.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DiscountContext.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Data\\DiscountContext.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Data\\DiscountContext.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Data\\DiscountContext.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\Data\\DiscountContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationExtensions.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Extensions\\ApplicationExtensions.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Extensions\\ApplicationExtensions.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Extensions\\ApplicationExtensions.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\Extensions\\ApplicationExtensions.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-03-10T08:56:14.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Program.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Program.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Coupon.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Entities\\Coupon.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Entities\\Coupon.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Entities\\Coupon.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\Entities\\Coupon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CatalogContext.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\Data\\CatalogContext.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Data\\CatalogContext.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\Data\\CatalogContext.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Data\\CatalogContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\appsettings.Development.json",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\appsettings.Development.json",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-10T08:56:14.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddApplicationServices.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\Extensions\\AddApplicationServices.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Extensions\\AddApplicationServices.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\Extensions\\AddApplicationServices.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Extensions\\AddApplicationServices.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ShoppingCartItem.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Entities\\ShoppingCartItem.cs",
+              "RelativeDocumentMoniker": "Services\\Cart\\Cart.API\\Entities\\ShoppingCartItem.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Entities\\ShoppingCartItem.cs",
+              "RelativeToolTip": "Services\\Cart\\Cart.API\\Entities\\ShoppingCartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-03-10T08:56:14.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Discount.API.csproj",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Discount.API.csproj",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Discount.API.csproj",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Discount.API.csproj",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\Discount.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-10T08:56:14.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Dockerfile",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Dockerfile",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Dockerfile",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\Dockerfile",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-10T08:56:14.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductRepository .cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\Repositories\\ProductRepository .cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Repositories\\ProductRepository .cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\Repositories\\ProductRepository .cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Repositories\\ProductRepository .cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T08:56:14.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\appsettings.json",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\appsettings.json",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-10T08:56:14.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Catalog.API.csproj",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-10T08:56:14.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-10T08:56:14.842Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

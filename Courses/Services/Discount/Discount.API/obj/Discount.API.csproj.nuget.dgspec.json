@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\StudyAT\\StudyAT_BE_Courses\\Courses\\Services\\Discount\\Discount.API\\Discount.API.csproj": {}
+    "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Discount.API.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\StudyAT\\StudyAT_BE_Courses\\Courses\\Services\\Discount\\Discount.API\\Discount.API.csproj": {
+    "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Discount.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\StudyAT\\StudyAT_BE_Courses\\Courses\\Services\\Discount\\Discount.API\\Discount.API.csproj",
+        "projectUniqueName": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Discount.API.csproj",
         "projectName": "Discount.API",
-        "projectPath": "C:\\workspace\\StudyAT\\StudyAT_BE_Courses\\Courses\\Services\\Discount\\Discount.API\\Discount.API.csproj",
+        "projectPath": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\Discount.API.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\StudyAT\\StudyAT_BE_Courses\\Courses\\Services\\Discount\\Discount.API\\obj\\",
+        "outputPath": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Discount\\Discount.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -90,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -4,6 +4,8 @@ services:
   cart.api:
     image: cartapi:dev
     build:
+      args:
+        BUILD_CONFIGURATION: Debug
       target: base
       labels:
         com.microsoft.created-by: "visual-studio"
@@ -11,13 +13,12 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages
+      - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Cart\Cart.API:/app
-      - C:\workspace\StudyAT\StudyAT_BE_Courses\Courses:/src
+      - C:\workspace\StudyAT\StudyAT\Courses\Services\Cart\Cart.API:/app
+      - C:\workspace\StudyAT\StudyAT\Courses:/src
       - C:\Users\ASUS\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\ASUS\.nuget\packages\:/.nuget/packages:ro
-      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -29,13 +30,15 @@ services:
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  \"\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages  \"/app/bin/Debug/net7.0/Cart.API.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true
   catalog.api:
     image: catalogapi:dev
     build:
+      args:
+        BUILD_CONFIGURATION: Debug
       target: base
       labels:
         com.microsoft.created-by: "visual-studio"
@@ -43,13 +46,12 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages
+      - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Catalog\Catalog.API:/app
-      - C:\workspace\StudyAT\StudyAT_BE_Courses\Courses:/src
+      - C:\workspace\StudyAT\StudyAT\Courses\Services\Catalog\Catalog.API:/app
+      - C:\workspace\StudyAT\StudyAT\Courses:/src
       - C:\Users\ASUS\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\ASUS\.nuget\packages\:/.nuget/packages:ro
-      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -61,7 +63,7 @@ services:
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  \"/app/bin/Debug/net7.0/Catalog.API.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages  \"/app/bin/Debug/net7.0/Catalog.API.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true
@@ -69,6 +71,8 @@ services:
   discount.api:
     image: discountapi:dev
     build:
+      args:
+        BUILD_CONFIGURATION: Debug
       target: base
       labels:
         com.microsoft.created-by: "visual-studio"
@@ -76,13 +80,12 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages
+      - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - C:\workspace\StudyAT\StudyAT_BE_Courses\Courses\Services\Discount\Discount.API:/app
-      - C:\workspace\StudyAT\StudyAT_BE_Courses\Courses:/src
+      - C:\workspace\StudyAT\StudyAT\Courses\Services\Discount\Discount.API:/app
+      - C:\workspace\StudyAT\StudyAT\Courses:/src
       - C:\Users\ASUS\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\ASUS\.nuget\packages\:/.nuget/packages:ro
-      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -94,7 +97,7 @@ services:
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  \"\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages  \"/app/bin/Debug/net7.0/Discount.API.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true

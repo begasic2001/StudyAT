@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n0SZ0djJbfDuIhCuM/mKHMlrZOSZ4L7SwY4sfeET6avRC21vnx76e07mkjvt2BLzAF37uOgt41xgSJ65L99WzA==",
+  "dgSpecHash": "yLL2jR5krKYVdfM8gpqMVW+/0XzEV8THECfFz7KRTeU3KVOjfxoUjB6SSzYoje4o/hXh9rTuIzT8kU0dI2CKoQ==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\StudyAT\\StudyAT_BE_Courses\\Courses\\Services\\Auction\\Auction.API\\Auction.API.csproj",
+  "projectFilePath": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Auction\\Auction.API\\Auction.API.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

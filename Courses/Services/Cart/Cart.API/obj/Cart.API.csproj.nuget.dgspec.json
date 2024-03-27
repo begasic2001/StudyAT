@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\StudyAT\\StudyAT_BE_Courses\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj": {}
+    "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\StudyAT\\StudyAT_BE_Courses\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj": {
+    "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\StudyAT\\StudyAT_BE_Courses\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj",
+        "projectUniqueName": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj",
         "projectName": "Cart.API",
-        "projectPath": "C:\\workspace\\StudyAT\\StudyAT_BE_Courses\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj",
+        "projectPath": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\StudyAT\\StudyAT_BE_Courses\\Courses\\Services\\Cart\\Cart.API\\obj\\",
+        "outputPath": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Cart\\Cart.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -84,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
