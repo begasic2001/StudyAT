@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AgKq6Vh2nF7QRuxnuDB5RW93YPPzQbRC4Ot1wK614WKYql0IHwRcQPyL9facNa5evmmRTx9P+WoEM1IG1C7AlQ==",
+  "dgSpecHash": "vaKsvwtKtg9HMp02uz+S4PeqtNuPEhiK4M6fa/OE/rQlyyzKB35CcUtNx4a8+8YgRqd4eu5zaC03j8WcUdpPDw==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\StudyAT\\Courses\\Courses\\Services\\Discount\\Discount.API\\Discount.API.csproj",
+  "projectFilePath": "C:\\workspace\\StudyAT\\BaseProduct\\Courses\\Services\\Discount\\Discount.API\\Discount.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",

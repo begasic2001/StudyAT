@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\StudyAT\\Courses\\Courses\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
+    "C:\\workspace\\StudyAT\\BaseProduct\\Courses\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\StudyAT\\Courses\\Courses\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
+    "C:\\workspace\\StudyAT\\BaseProduct\\Courses\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\StudyAT\\Courses\\Courses\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "projectUniqueName": "C:\\workspace\\StudyAT\\BaseProduct\\Courses\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
         "projectName": "Catalog.API",
-        "projectPath": "C:\\workspace\\StudyAT\\Courses\\Courses\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "projectPath": "C:\\workspace\\StudyAT\\BaseProduct\\Courses\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\StudyAT\\Courses\\Courses\\Services\\Catalog\\Catalog.API\\obj\\",
+        "outputPath": "C:\\workspace\\StudyAT\\BaseProduct\\Courses\\Services\\Catalog\\Catalog.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1063,11 +1063,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\StudyAT\\Courses\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj",
+      "projectUniqueName": "C:\\workspace\\StudyAT\\BaseProduct\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj",
       "projectName": "Cart.API",
-      "projectPath": "C:\\workspace\\StudyAT\\Courses\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj",
+      "projectPath": "C:\\workspace\\StudyAT\\BaseProduct\\Courses\\Services\\Cart\\Cart.API\\Cart.API.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\StudyAT\\Courses\\Courses\\Services\\Cart\\Cart.API\\obj\\",
+      "outputPath": "C:\\workspace\\StudyAT\\BaseProduct\\Courses\\Services\\Cart\\Cart.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
