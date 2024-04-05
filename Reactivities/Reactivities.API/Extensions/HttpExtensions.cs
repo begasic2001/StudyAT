@@ -13,6 +13,7 @@ namespace Reactivities.API.Extensions
                 itemsPerPage,
                 totalItems,
                 totalPages
+
             };
             response.Headers.Add("Pagination",JsonSerializer.Serialize(paginationHeader));
         }
