@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fwYNNsbKfhn/gxMiqSFNhNzyE/jx4BeSbfUVx3epWCcYsqwCZX2L5a2lZF69rPDvasxiuohGUhB/oqv3n59znQ==",
+  "dgSpecHash": "RtRj3yTA84nvaFdNhrdpmoVqLVE/Kki/sPGekewhYgp2VFslcv/5yRfKcBiHDxETEUduqrupY5fibvtdeI7zIg==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\StudyAT\\StudyAT\\Courses\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+  "projectFilePath": "C:\\workspace\\StudyAT\\Courses\\Courses\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
