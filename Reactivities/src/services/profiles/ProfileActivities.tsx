@@ -7,7 +7,6 @@ import { format } from "date-fns";
 import { useStore } from "../../app/stores/store";
 import { UserActivity } from "../../app/models/profile";
 
-
 const panes = [
   { menuItem: "Future Events", pane: { key: "future" } },
   { menuItem: "Past Events", pane: { key: "past" } },
@@ -45,11 +44,7 @@ export default observer(function ProfileActivities() {
           <br />
           <Card.Group itemsPerRow={4}>
             {userActivities.map((activity: UserActivity) => (
-              <Card
-                as={Link}
-                to={`/activities/${activity.id}`}
-                key={activity.id}
-              >
+              <Card as={Link} to={`/activity/${activity.id}`} key={activity.id}>
                 <Image
                   src={`/assets/categoryImages/${activity.category}.jpg`}
                   style={{ minHeight: 100, objectFit: "cover" }}
