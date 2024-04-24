@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Autions"
+    "\\Autions",
+    "\\Autions\\Autions.API",
+    "\\Autions\\Autions.Domain",
+    "\\Autions\\Autions.Infrastructure"
   ],
   "PreviewInSolutionExplorer": false
 }
