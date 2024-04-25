@@ -54,7 +54,6 @@ namespace Autions.Persistence.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Winner")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");

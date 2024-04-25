@@ -1,3 +1,4 @@
+using Autions.API;
 using Autions.Persistence;
 using Microsoft.EntityFrameworkCore;
 
@@ -27,5 +28,14 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+try
+{
+    SeedAuction.InitDb(app);
+}
+catch (Exception e)
+{
+    Console.WriteLine(e);
+}
 
 app.Run();
