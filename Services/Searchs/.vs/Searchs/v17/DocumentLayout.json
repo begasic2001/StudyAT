@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|c:\\workspace\\studyat\\studyat_serviceautions\\services\\searchs\\searchs.api\\searchs.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|solutionrelative:searchs.api\\searchs.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\searchs.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|solutionrelative:searchs.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Searchs.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Searchs.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-28T15:18:48.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Searchs.API.csproj",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Searchs.API.csproj",
+              "RelativeDocumentMoniker": "Searchs.API\\Searchs.API.csproj",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Searchs.API.csproj",
+              "RelativeToolTip": "Searchs.API\\Searchs.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-28T15:00:57.668Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
