@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Reactivities.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7a7c2c7fc8b7ec28c62ec970c5a18d9266519db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+926b6b3696530561bfdebad20e87700cb73964de")]
 [assembly: System.Reflection.AssemblyProductAttribute("Reactivities.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Reactivities.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
