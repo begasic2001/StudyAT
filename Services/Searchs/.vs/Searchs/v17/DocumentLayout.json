@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|c:\\workspace\\studyat\\studyat_serviceautions\\services\\searchs\\searchs.api\\searchs.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|solutionrelative:searchs.api\\searchs.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|c:\\workspace\\studyat\\studyat_serviceautions\\services\\searchs\\searchs.api\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|solutionrelative:searchs.api\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|c:\\workspace\\studyat\\studyat_serviceautions\\services\\searchs\\searchs.api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|solutionrelative:searchs.api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|c:\\workspace\\studyat\\studyat_serviceautions\\services\\searchs\\searchs.api\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|solutionrelative:searchs.api\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|c:\\workspace\\studyat\\studyat_serviceautions\\services\\searchs\\searchs.api\\searchs.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|solutionrelative:searchs.api\\searchs.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "Searchs.API\\Controllers\\SearchController.cs",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "Searchs.API\\Controllers\\SearchController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:44:17.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "auctions.json",
               "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Data\\auctions.json",
               "RelativeDocumentMoniker": "Searchs.API\\Data\\auctions.json",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "Searchs.API\\Data\\DbInitializer.cs",
@@ -68,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Searchs.API\\appsettings.Development.json",
@@ -81,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Program.cs",
               "RelativeDocumentMoniker": "Searchs.API\\Program.cs",
@@ -94,7 +111,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Searchs.API.csproj",
+              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Searchs.API.csproj",
+              "RelativeDocumentMoniker": "Searchs.API\\Searchs.API.csproj",
+              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Searchs.API.csproj",
+              "RelativeToolTip": "Searchs.API\\Searchs.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-28T15:00:57.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Models\\Item.cs",
               "RelativeDocumentMoniker": "Searchs.API\\Models\\Item.cs",
@@ -107,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Searchs.API\\Properties\\launchSettings.json",
@@ -116,19 +146,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-28T15:18:48.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Searchs.API.csproj",
-              "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Searchs.API.csproj",
-              "RelativeDocumentMoniker": "Searchs.API\\Searchs.API.csproj",
-              "ToolTip": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Searchs.API.csproj",
-              "RelativeToolTip": "Searchs.API\\Searchs.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-28T15:00:57.668Z",
               "EditorCaption": ""
             }
           ]
