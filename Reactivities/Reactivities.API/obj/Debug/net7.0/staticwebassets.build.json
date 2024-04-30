@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CYhV0rpAwMP6+0mfMQ5B0Om9ji+9PJENJ3f4/i3vBqQ=",
+  "Hash": "qhU+CsBHhd78j3jOcp+nE0B1KdQzr1xNSHHp/lNEC4s=",
   "Source": "Reactivities.API",
   "BasePath": "_content/Reactivities.API",
   "Mode": "Default",
@@ -376,6 +376,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\index-3572b40f.js"
+    },
+    {
+      "Identity": "C:\\workspace\\StudyAT\\StudyAT_ServiceReactivities\\Reactivities\\Reactivities.API\\wwwroot\\assets\\index-67be4d3c.js",
+      "SourceId": "Reactivities.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workspace\\StudyAT\\StudyAT_ServiceReactivities\\Reactivities\\Reactivities.API\\wwwroot\\",
+      "BasePath": "_content/Reactivities.API",
+      "RelativePath": "assets/index-67be4d3c.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-67be4d3c.js"
     },
     {
       "Identity": "C:\\workspace\\StudyAT\\StudyAT_ServiceReactivities\\Reactivities\\Reactivities.API\\wwwroot\\assets\\index-b4160f7c.js",
