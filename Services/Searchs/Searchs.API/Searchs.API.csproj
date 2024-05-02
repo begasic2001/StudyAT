@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.2" />
     <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="7.0.18" />
     <PackageReference Include="MongoDB.Entities" Version="22.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
@@ -16,6 +17,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Searchs.Application\Searchs.Application.csproj" />
     <ProjectReference Include="..\Searchs.Infrastructure\Searchs.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Contracts\Contracts\Contracts.csproj" />
+	
   </ItemGroup>
 
 </Project>

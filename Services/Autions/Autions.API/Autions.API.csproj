@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.18">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -18,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Autions.Application\Autions.Application.csproj" />
     <ProjectReference Include="..\Autions.Infrastructure\Autions.Infrastructure.csproj" />
+	<ProjectReference Include="..\..\Contracts\Contracts\Contracts.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\searchs.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|solutionrelative:searchs.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\searchs.api\\searchs.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|solutionrelative:searchs.api\\searchs.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|c:\\workspace\\studyat\\studyat_serviceautions\\services\\searchs\\searchs.api\\services\\auctionsvchttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|c:\\workspace\\studyat\\studyat_serviceautions\\services\\searchs\\searchs.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|solutionrelative:searchs.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\searchs.api\\services\\auctionsvchttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02880B1E-08B5-4CC4-9664-B43E3375C4B6}|Searchs.API\\Searchs.API.csproj|solutionrelative:searchs.api\\services\\auctionsvchttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -70,8 +70,7 @@
               "RelativeToolTip": "Searchs.API\\Services\\AuctionSvcHttpClient.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T08:57:17.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T08:57:17.958Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "Searchs.API\\Data\\auctions.json",
               "ViewState": "AQIAAEgAAAAAAAAAAAAAAFAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-30T08:49:37.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T08:49:37.744Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "Searchs.API\\Data\\DbInitializer.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwBEAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T07:19:33.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T07:19:33.996Z"
             },
             {
               "$type": "Document",
@@ -109,31 +106,30 @@
               "RelativeToolTip": "Searchs.API\\Models\\Item.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T05:21:23.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T05:21:23.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Program.cs",
               "RelativeDocumentMoniker": "Searchs.API\\Program.cs",
               "ToolTip": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Program.cs",
               "RelativeToolTip": "Searchs.API\\Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAABgAAAADAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T05:23:23.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Searchs.API.csproj",
               "DocumentMoniker": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Searchs.API.csproj",
               "RelativeDocumentMoniker": "Searchs.API\\Searchs.API.csproj",
               "ToolTip": "C:\\workspace\\StudyAT\\StudyAT_ServiceAutions\\Services\\Searchs\\Searchs.API\\Searchs.API.csproj",
               "RelativeToolTip": "Searchs.API\\Searchs.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-04-28T15:00:57.668Z",
               "EditorCaption": ""
@@ -148,8 +144,7 @@
               "RelativeToolTip": "Searchs.API\\Controllers\\SearchController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwDMAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T09:44:17.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T09:44:17.379Z"
             },
             {
               "$type": "Document",
@@ -161,8 +156,7 @@
               "RelativeToolTip": "Searchs.API\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-30T05:28:23.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T05:28:23.227Z"
             },
             {
               "$type": "Document",
@@ -174,8 +168,7 @@
               "RelativeToolTip": "Searchs.API\\RequestHelpers\\SearchParams.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T15:11:54.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T15:11:54.344Z"
             },
             {
               "$type": "Document",
@@ -187,8 +180,7 @@
               "RelativeToolTip": "Searchs.API\\Searchs.API.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-04-30T15:13:38.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T15:13:38.062Z"
             },
             {
               "$type": "Document",
@@ -200,8 +192,7 @@
               "RelativeToolTip": "Searchs.API\\RequestHelpers\\MappingProfiles.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T15:17:19.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T15:17:19.841Z"
             },
             {
               "$type": "Document",
@@ -213,8 +204,7 @@
               "RelativeToolTip": "Searchs.API\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-28T15:18:48.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T15:18:48.195Z"
             }
           ]
         }
