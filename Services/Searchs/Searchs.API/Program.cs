@@ -7,7 +7,8 @@ using Searchs.API.Data;
 using Searchs.API.Models;
 using Searchs.API.Services;
 using System.Net;
-
+using Contracts;
+using Searchs.API.Consumers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,10 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddHttpClient<AuctionSvcHttpClient>().AddPolicyHandler(GetPolicy());
 builder.Services.AddMassTransit(x =>
 {
+    x.AddConsumersFromNamespaceContaining<AuctionCreatedConsumer>();
+
+    x.SetEndpointNameFormatter(new KebabCaseEndpointNameFormatter("search", false));
+
     x.UsingRabbitMq((context, config) =>
     {
         config.ConfigureEndpoints(context);
