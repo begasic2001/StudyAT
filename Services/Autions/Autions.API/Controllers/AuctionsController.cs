@@ -62,10 +62,11 @@ namespace Autions.API.Controllers
             auction.Seller = "test";
             _context.Auctions.Add(auction);
 
-            var result = await _context.SaveChangesAsync() > 0;
-
             var newAuction = _mapper.Map<AuctionDto>(auction);
+            // publist AuctionCreated to RabbitMQ
             await _publishEndpoint.Publish(_mapper.Map<AuctionCreated>(newAuction));
+            // End publist
+            var result = await _context.SaveChangesAsync() > 0;
             if (!result) return BadRequest("Could not save changes to the DB");
             return CreatedAtAction(nameof(GetAuctionById), new {auction.Id}, newAuction);
         }
